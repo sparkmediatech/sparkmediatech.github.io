@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Calculator</title>
+    <link rel="stylesheet" href="mathbutton.css">
+    
+</head>
+<body>
+    <section id="background">
+    <div id="head">
+    <header>
+        <img src="image/logo.png" id="logo" alt="">
+        <div id="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Addition</a></li>
+                <li><a href="#">Subtraction</a></li>
+                <li><a href="#">Multiplication</a></li>
+                <li><a href="#">Division</a></li>
+                <li><a href="#">Assignments</a></li>
+            </ul>
+
+        </div>
+
+
+    </header>
+   </div>
+   <div id="txt">
+   <h1>Welcome to free Mathematics Calculator website </h1>
+       <p>You can perform basic mathematics functions such as addition, subtraction, multiplication and division. 
+        <br> Begin by inputing your numbers and click on the function buttons below.</p>
+    </div>
+   <div id="box-area">
+       <input type="text" class="txt-box" id="text-box" placeholder="input number" name="box1"><br>
+       <input type="text" class="txt-box" id="text-box2" placeholder="input number" name="box2"><br>
+       <Label>Answer = <input type="textbox" name="display" class="display" id="display-box"></Label>
+
+   </div>
+
+   <div id="math-box">
+       <button onclick="add()" id="btn1" class="button"> + Addition</button>
+       <button onclick="subtract()" id="btn2" class="button"> - Subtraction</button>
+       <button onclick="multiplication()" id="btn3" class="button"> X Multiplication</button>
+       <button onclick="division()" id="btn4" class="button"> ÷ Division</button>
+
+   </div>
+
+</section>
+<script src="script.js"></script>
+</body>
+</html>
