@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scrollbar-width: none;
+    
 }
 ::-webkit-scrollbar{
     display: none;
 }
+
 
 .bg{
     background-color: #515A5A;
@@ -124,6 +127,8 @@ color: #fff;
     margin-top: 200px;
     cursor: pointer;
     border-radius: 8px;
+    outline: none;
+    border: none;
       
 }
 .btn{
@@ -132,6 +137,7 @@ color: #fff;
 .btn2{
     position: relative;
     display: none;
+    outline: none;
 }
 .paraText{
     color: #fff;
@@ -150,6 +156,8 @@ color: #fff;
     position: relative;
     left: 283px;
     top: 10px;
+    outline: none;
+    border: none;
 }
 
 
