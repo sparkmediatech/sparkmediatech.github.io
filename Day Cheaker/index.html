@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day Checker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dropdown.css">
+</head>
+<body>
+    <section class="bg">
+        <div class="dayChecker">
+            <h2>DAY CHECKER GAME :)</h2>
+        </div>
+        <div class="txt-container">
+            <div class="box">
+            <div class="txt-box"><p class="propmt-text">Hello, what's your name?</p><p class="nameOn"></p></div></div>
+
+            <form action="#" class="box2" name="formName" onsubmit="nameValidation();return false">
+            <div class="nameparabox"><p class="nameparagraph">My name is </p><input type="text" class="namefield" name="nameInput" id="input" ></div>
+            <input type="submit" value="NEXT" class="submitBTN">
+            
+        </div>
+    </form>
+
+        <div class="time">
+            <div class="container">
+                <div class="selected-item">
+                    <p class="paraText">Select Hour</p>
+                </div>
+            <select name="" id="hourSelector">
+                <option value="select" selected>Select</option>
+                <option class="txt hourAA" value="a">00</option>
+                <option class="txt hourA" value="b">01</option>
+                <option class="txt hourB" value="c">02</option>
+                <option class="txt hourC" value="d">03</option>
+                <option class="txt hourD" value="e">04</option>
+                <option class="txt hourE" value="f">05</option>
+                <option class="txt hourF" value="g">06</option>
+                <option class="txt hourG" value="h">07</option>
+                <option class="txt hourH" value="i">08</option>
+                <option class="txt hourI" value="j">09</option>
+                <option class="txt hourJ" value="k">10</option>
+                <option class="txt hourK" value="l">11</option>
+                <option class="txt hourL" value="m">12</option>
+                <option class="txt hourM" value="n">13</option>
+                <option class="txt hourN" value="o">14</option>
+                <option class="txt hourO" value="p">15</option>
+                <option class="txt hourP" value="q">16</option>
+                <option class="txt hourQ" value="r">17</option>
+                <option class="txt hourR" value="s">18</option>
+                <option class="txt hourS" value="t">19</option>
+                <option class="txt hourT" value="u">20</option>
+                <option class="txt hourU" value="v">21</option>
+                <option class="txt hourV" value="w">22</option>
+                <option class="txt hourW" value="x">23</option>
+            
+            </select>
+            
+            </div>
+
+            <div>
+                <p class="paraText" >Select Minute</p>
+                <select class="minuteSelector" name="" id="">
+                    <option class="am" value="select" selected>Select</option>
+                    <option class="minuteA" value="00">00</option>
+                    <option class="minuteB" value="01">01</option>
+                    <option class="minuteB" value="02">02</option>
+                    <option class="minuteB" value="03">03</option>
+                    <option class="minuteB" value="04">04</option>
+                    <option class="minuteB" value="05">05</option>
+                    <option class="minuteB" value="06">06</option>
+                    <option class="minuteB" value="07">07</option>
+                    <option class="minuteB" value="08">08</option>
+                    <option class="minuteB" value="09">09</option>
+                    <option class="minuteB" value="10">10</option>
+                    <option class="minuteB" value="11">11</option>
+                    <option class="minuteB" value="12">12</option>
+                    <option class="minuteB" value="13">13</option>
+                    <option class="minuteB" value="14">14</option>
+                    <option class="minuteB" value="15">15</option>
+                    <option class="minuteB" value="16">16</option>
+                    <option class="minuteB" value="17">17</option>
+                    <option class="minuteB" value="18">18</option>
+                    <option class="minuteB" value="19">19</option>
+                    <option class="minuteB" value="20">20</option>
+                    <option class="minuteB" value="21">21</option>
+                    <option class="minuteB" value="22">22</option>
+                    <option class="minuteB" value="23">23</option>
+                    <option class="minuteB" value="24">24</option>
+                    <option class="minuteB" value="25">25</option>
+                    <option class="minuteB" value="26">26</option>
+                    <option class="minuteB" value="27">27</option>
+                    <option class="minuteB" value="28">28</option>
+                    <option class="minuteB" value="29">29</option>
+                    <option class="minuteB" value="30">30</option>
+                    <option class="minuteB" value="31">31</option>
+                    <option class="minuteB" value="32">32</option>
+                    <option class="minuteB" value="33">33</option>
+                    <option class="minuteB" value="34">34</option>
+                    <option class="minuteB" value="35">35</option>
+                    <option class="minuteB" value="36">36</option>
+                    <option class="minuteB" value="37">37</option>
+                    <option class="minuteB" value="38">38</option>
+                    <option class="minuteB" value="39">39</option>
+                    <option class="minuteB" value="40">40</option>
+                    <option class="minuteB" value="41">41</option>
+                    <option class="minuteB" value="42">42</option>
+                    <option class="minuteB" value="43">43</option>
+                    <option class="minuteB" value="44">44</option>
+                    <option class="minuteB" value="45">45</option>
+                    <option class="minuteB" value="46">46</option>
+                    <option class="minuteB" value="47">47</option>
+                    <option class="minuteB" value="48">48</option>
+                    <option class="minuteB" value="49">49</option>
+                    <option class="minuteB" value="50">50</option>
+                    <option class="minuteB" value="51">51</option>
+                    <option class="minuteB" value="52">52</option>
+                    <option class="minuteB" value="53">53</option>
+                    <option class="minuteB" value="54">54</option>
+                    <option class="minuteB" value="55">55</option>
+                    <option class="minuteB" value="56">56</option>
+                    <option class="minuteB" value="57">57</option>
+                    <option class="minuteB" value="58">58</option>
+                    <option class="minuteB" value="59">59</option>
+                </select>
+            </div>
+            
+            <div >
+                <p class="paraText" >Select Time</p>
+            <select class="timeSelector">
+                <option value="select" selected>Select Time:</option>
+                <option class="am" id="am" value="AM">AM</option>
+                <option class="pm" value="PM">PM</option>
+
+            </select></div>
+        </div>
+
+        <div class="checkbtn">
+            <button onclick="doAction();" class="btn" id="btnMain">NEXT</button>
+
+            <button onclick="check()" class="btn2">CHECK</button>
+            
+        </div>
+
+        
+    
+    </section>
+
+
+
+
+    <script src="script.js"></script>
+    <script src="dropdown.js"></script>
+</body>
+</html>
