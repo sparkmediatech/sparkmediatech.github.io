@@ -1,0 +1,234 @@
+:root{
+    --pry-color:#DE5842;
+    --dark-color:#002240; 
+    --sec-color:#C9D607;
+    --light-color:#f4f4f4;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    flex-wrap: wrap;
+}
+
+.flex-2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    flex-wrap: wrap;
+    
+}
+
+.bg-flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+.custom-text1{
+    font-size: 40px;
+    font-family: Open Sans;
+    color: var(--pry-color);
+    text-transform: uppercase;
+}
+
+.custom-text2{
+    font-size: 50px;
+    font-family: Open Sans;
+    color: var(--sec-color);
+    text-transform: uppercase;
+}
+
+.custom-text3{
+    font-size: 50px;
+    font-family: Open Sans;
+    color: #f4f4f4;
+    text-transform: uppercase;
+}
+
+.custom-small-text{
+    font-size: 20px;
+    font: Open Sans;
+    color: var(--light-color);
+    line-height: 1.5em;
+}
+
+.custom-header3{
+    font-size: 15px;
+    font-family: Open Sans;
+    color: var(--pry-color);
+    text-transform: uppercase;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.custom-header4{
+    font-size: 14px;
+    font-family: Open Sans;
+    color: var(--light-color);
+    text-transform: uppercase;
+}
+
+.btn{
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+    background-color: var(--pry-color);
+    border-bottom: 5px solid #C33022;
+    color: var(--light-color);
+    font-family: Arial;
+    font-weight: bold;
+}
+.btn2{
+    padding: 15px 30px 15px 30px;
+    border: 2px #fff solid;
+    background-color: #19232F;
+    color: var(--light-color);
+    font-family: Arial;
+    font-weight: bold;
+    cursor: pointer;
+}
+ul li{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: var(--light-color);
+    font-family: open Sans;
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    justify-content: space-between;   
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between; 
+    
+}
+
+.slidetitle{
+    color: #984337;
+    font-size: 15px;
+    font-family: lato;
+}
+
+.slidesubtitle{
+    font-size: 14px;
+    color: #5C6066;
+    font-family: lato;
+    position: relative;
+    bottom: 10px;
+}
+
+.sliderpara{
+    color: #5C6066;
+    line-height: 1.3em;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.socialicons{
+    color: #fff;
+    letter-spacing: .6em;
+    position: relative;
+    left: 190px;
+    cursor: pointer;
+    bottom: 10px;
+}
+
+
+
+/* Margin codes */
+
+.my-1{
+    margin: 1rem 0;
+}
+.my-2{
+    margin: 1.5rem 0;
+}
+.my-3{
+    margin: 2rem 0;
+}
+.my-4{
+    margin: 3rem 0;
+}
+.my-5{
+    margin: 4rem 0;
+}
+
+/* Margin All around codes */
+.m-1{
+    margin: 1rem;
+}
+.m-2{
+    margin: 1.5rem;
+}
+.m-3{
+    margin: 2rem;
+}
+.m-4{
+    margin: 3rem;
+}
+.m-5{
+    margin: 4rem;
+}
+
+
+/* padding codes */
+.py-1{
+    padding: 1rem 0;
+}
+.py-2{
+    padding: 1.5rem 0;
+}
+.my-3{
+    padding: 2rem 0;
+}
+.py-4{
+    padding: 3rem 0;
+}
+.py-5{
+    padding: 4rem 0;
+}
+
+
+
+.p-1{
+    padding: 1rem;
+}
+.p-2{
+    padding: 1.5rem;
+}
+.p-3{
+    padding: 2rem;
+}
+.p-4{
+    padding: 3rem;
+}
+.p-5{
+    padding: 4rem;
+}
+.custom-padding{
+    padding-top: 6rem;
+}
