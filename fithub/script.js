@@ -389,7 +389,7 @@ var mobile = window.matchMedia("(max-width: 500px)")
     function mySection1Slide1Out(){
         slide1.style.left = "-100vw";
         slide1box1.style.opacity = "0";
-        slide1box1.style.top = "-20px"
+        slide1box1.style.top = "-10px"
         slide1BTN.style.opacity = "0";
         delayInterval = setTimeout(mySection1Slide2, firstInterval);
       }
@@ -475,17 +475,24 @@ var mobile = window.matchMedia("(max-width: 500px)")
   /* Mobile*/
   var m = window.matchMedia("(max-width: 400px) and (min-width: 320px)")
   if(m.matches){
+    slide1.style.left = "-25vw";
+    slide1box1.style.opacity = "1";
     slide1box1.style.top = "8px"
+    slide1BTN.style.opacity = "1";
+    myPauseDelay = setTimeout(mySection1Slide1Out, delayPause);
 
-    
 
     function mySection1Slide1Out(){
         slide1.style.left = "-100vw";
         slide1box1.style.opacity = "0";
+        slide1box1.style.top = "0px"
         slide1BTN.style.opacity = "0";
         delayInterval = setTimeout(mySection1Slide2, firstInterval);
       }
 
+   
+    
+      
 
 
 
