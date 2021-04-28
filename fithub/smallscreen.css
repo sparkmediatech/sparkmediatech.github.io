@@ -1,0 +1,399 @@
+
+
+
+/* Mobile*/
+@media  (max-width: 400px) and (min-width: 320px){
+    .bg1{
+        height: 70vh;
+        width: auto;
+        overflow: hidden; 
+    }
+
+    .header h1{
+        font-size: 25px;
+    }
+    .logo{
+        position: relative;
+        right: 85px;
+        bottom: 10px;
+    }
+    .header .flex{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header a{
+        font-size: 13px;
+        margin: 10px;
+        position: relative;
+        left: -24px;
+    }
+    .header a:hover{
+        border-bottom: 2px #fff solid;
+    }
+
+    #slide1{
+        width: 250px;
+        height: 200px;
+        position: relative;
+        top: 120px;
+        left: -100vw;
+        transition: 1s ease-in-out;
+    }
+
+    #slide2{
+        width: 250px;
+        height: 200px;
+        position: relative;
+        top: 10px;
+        left: -100vw;
+        transition: 1s ease-in-out;
+    }
+
+    .arrowContainer{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: relative;   
+    }
+    .arrowleft{
+        margin-right: 35px;
+        
+    }
+    #slide1BTN{
+        position: relative;
+        top: -40px;
+        left: 65px;
+        padding: 5px 15px 5px 15px;
+        
+    }
+    .slide1box1{
+        opacity: 0;
+        transition: .9s ease-in;
+        position: absolute;
+        top: -3px;  
+    }
+
+    #fist-title{
+        font-size: 20px;
+        position: relative;
+        bottom: 50px;
+        left: 30px;
+    }
+    #fist-title2{
+        font-size: 20px;
+        position: relative;
+        left: 38px;
+    }
+    #slide1BTN{
+        position: relative;
+        bottom: 130px;
+    }
+    #first-paragraph{
+        font-size: 9px;
+        position: relative;
+        left: 30px;
+        bottom: 50px;
+    }
+    #first-paragraph2{
+        font-size: 9px;
+        position: relative;
+        left: 38px;
+    }
+
+    .slide1box2{
+        position: absolute;
+        top: -130px;
+        opacity: 0;
+        transition: .8s ease-out;
+    }
+
+    .bg1 .flex{
+        flex-wrap: wrap;
+    }
+    .header .flex{
+        flex-wrap: wrap;
+    }
+
+    /* section 2  */
+    .bg2{
+        height: 70vh;
+    }
+
+    .slide3{
+        display: none;
+    }
+
+    .vl{
+        display: none;
+    }
+    .section2-header-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bg2 h2{
+        font-size: 15px;
+        margin-right: 50px;
+        position: relative;
+        bottom: 60px;
+
+    }
+    .bg2 h5{
+        font-size: 15px;
+        margin-right: 50px;
+        position: relative;
+        bottom: 50px;
+    }
+    .section2{
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       position: relative;
+        bottom: 80px;
+        right: 60px;
+      
+    }
+    .slide2-text p{
+        font-size: 14px;
+        line-height: 1.3em;
+        margin-top: 25px;
+        
+    }
+    .slide2-text h4{
+        margin: -16px;
+        font-size: 10px;
+        text-align: center;
+        margin-right: 100px;
+        margin-left:7px ;
+    }
+
+    .section2-header-container h5{
+        margin-top: 1px;
+    }
+
+    .bg2 .btn2{
+        padding: 5px 10px 5px 10px;
+        margin-bottom: 10px;
+        position: relative;
+        top: 0px;
+        height: 40px;
+        right: 15px;
+        
+    }
+
+    /* section 3  */
+    .bg3{
+        height: 1600px;
+        
+    }
+
+    /* Section4*/
+
+.slide4container{
+    display: none;
+}
+.bg4 .grid{
+    grid-template-columns: repeat(auto-fit, minmax(100px, .7fr));
+    justify-content: center;
+}
+
+/* Section5*/
+#bg5{
+   
+    height:100vh;   
+}
+.section5container{
+    height: 95vh;
+    width: 97vw;
+    overflow: hidden;  
+}
+#section5-headertitle{
+    width: 100vw;
+    position: relative;
+    right: 130px;
+}
+#section5-headertitle h3{
+    text-align: center;
+    font-size: 20px; 
+}
+#section5-headertitle h4{
+    text-align: center;
+    font-size: 15px;   
+}
+.section5slides{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 15px;
+    position: absolute;
+    left: 20px;
+    top: 170px;    
+}
+#section5slidersc{
+    width: 200px;
+}
+
+.section5sliders{
+    background: #111924;
+    height: 600px;
+}
+.imgbg{
+    background: #98ACB5;
+    width: 140px;
+    height: 180px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+#section5title1{
+    position: absolute;
+    left: 20px;
+    top: 250px;
+}
+#socialicons1{
+    position: relative;
+    left: 0px;
+    top: 10px;
+    font-size: 20px;
+    letter-spacing: 13px;
+    cursor: pointer;
+}
+#socialicons2{
+    position: relative;
+    left: 0px;
+    top: 10px;
+    font-size: 20px;
+    letter-spacing: 13px;
+}
+#socialicons3{
+    position: relative;
+    left: 0px;
+    top: 10px;
+    font-size: 20px;
+    letter-spacing: 13px;
+}
+/*#section5imga{
+    position: relative;
+    top: 5px;
+    right: 30px;
+    width: 220px;
+}*/
+#emptydiv{
+    width: 200px;
+    height: 230px;
+    background: #19232F;
+    position: absolute;
+    left: -400px;
+    z-index: 1;
+}
+
+/*#section5slidersc{
+    position: absolute;
+    width:500px ;
+    left: 500px;
+    transition: .8s ease-out;
+}*/
+
+.section5sliders img{
+    width: 140px;
+    height: 180px;
+    position: relative;
+    top: 5px;   
+}
+#section5imga{
+    width: 170px;
+}
+#section5imgc{
+    width: 140px;
+}
+#section5title2{
+    position: absolute;
+    right: 0px;
+    top: 250px;
+    width: 170px;
+}
+#section5title3{
+    position: absolute;
+    right: 0px;
+    top: 250px;
+    width: 170px; 
+}
+.controlBtn{
+    display: none;
+}
+
+
+/* Section 7*/
+.bg7 .grid-3{
+    grid-template-columns: repeat(auto-fit, minmax(100px, 250px));
+    justify-content: center;
+    gap: 50px;
+
+}
+.section7-container{
+    position: relative;
+    right: 60px;
+}
+.section7-container p{
+    font-size: 10px;
+}
+.sect7-img1-title1{
+    width: 90%;
+}
+/* Section 8*/
+.sect8-container{
+    margin-left: 35px;
+    width: 400px;
+}
+
+/* Section 9*/
+
+.section9-title-container{
+    margin: 150px 0 0px 80px;
+    
+}
+.sect9inputbox-wrapper{
+    display: flex;
+    margin: 0px 0 30px 80px;
+    gap: 10px;
+}
+.sect9inputbox-container{
+    width: 230px;
+    height: 45px;
+}
+/* Section 10 */
+.section10-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 300pxfr));
+    justify-content: center;
+}
+.sectiion10-inputbox-container{
+    width: 400px;
+    
+}
+/* section 11*/
+#gmap_canvas{
+    width: 460px;
+    text-align: center;
+    margin-left: 30px;
+}
+/* section 12*/
+.bg12 .bg-flex{
+    flex-direction: column;
+}
+.sect12-container h4{
+    font-family: sans-serif;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    text-align: center;
+}
+.sect12-container button{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 200px;
+    position: relative;
+    left: 80px;
+}
+
+
+}
