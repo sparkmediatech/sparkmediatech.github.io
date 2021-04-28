@@ -229,7 +229,7 @@
 
 /* Section5*/
 #bg5{
-   
+   display: none;
     height:100vh;   
 }
 .section5container{
