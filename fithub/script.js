@@ -473,7 +473,7 @@ var mobile = window.matchMedia("(max-width: 500px)")
 
 
   /* Mobile*/
-  var m = window.matchMedia("(max-width: 400px) and (min-width: 320px)")
+  var m = window.matchMedia("(max-width: 368px)")
   if(m.matches){
     slide1.style.left = "-25vw";
     slide1box1.style.opacity = "1";
@@ -489,12 +489,49 @@ var mobile = window.matchMedia("(max-width: 500px)")
         slide1BTN.style.opacity = "0";
         delayInterval = setTimeout(mySection1Slide2, firstInterval);
       }
-
-   
-    
-      
-
-
-
-
+ 
+        
   }
+
+ 
+   
+
+  //section 4//
+  var n = window.matchMedia("(max-width: 368px)")
+  if(n.matches){
+
+  slideRight();
+function slideRight() {
+  section5slidersc.style.left = "1190px";
+  section5slidersb.style.left = "50px";
+  section5slidersa.style.left = " 30px";
+  myVar = setTimeout(slideLeft, interval);
+  leftBtn.style.background = "#E84C3D"
+  rightBtn.style.background = "white"
+}
+function slideLeft() {
+  section5slidersa.style.left = " -300px";
+  section5slidersb.style.left = "-190px";
+  section5slidersc.style.left = "530px";
+  myVar = setTimeout(slideExtremeRight, interval);
+  rightBtn.style.background = "#E84C3D"
+  leftBtn.style.background = "white"
+}
+function slideExtremeRight(){
+  section5slidersb.style.left = "-500px";
+  section5slidersa.style.left = " -300px";
+  section5slidersc.style.left = "30px";
+  myVar = setTimeout(slideExtremeLeft, interval);
+}
+
+function slideExtremeLeft(){
+  section5slidersa.style.left = " -300px";
+  section5slidersb.style.left = "-190px";
+  section5slidersc.style.left = "530px";
+  myVar = setTimeout(slideRight, interval);
+  rightBtn.style.background = "#E84C3D"
+  leftBtn.style.background = "white"
+}
+  }
+  
+ 
