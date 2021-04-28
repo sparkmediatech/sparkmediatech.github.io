@@ -204,7 +204,7 @@
         width: 220px;
     }
     .classes{
-        margin-left: 10px;
+        margin-left: 15px;
 
 }
     /* Section4*/
@@ -402,6 +402,7 @@
     width: 460px;
     text-align: center;
     margin-left: 30px;
+    overflow: hidden;
 }
 /* section 12*/
 .bg12 .bg-flex{
