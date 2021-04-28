@@ -375,11 +375,20 @@
 }
 .sect8-container{
     margin-left: 35px;
-    width: 240px;
+    width: 260px;
     overflow: hidden;
 }
+.bg8 p{
+    font-size: 15px;
+}
+.bg8 .section-firstchild-para{
+    font-size: 10px;
+}
 .sect8-video-container{
-   
+    width: 240px;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     position: relative;
     bottom: 100px;
     right: 30px;
