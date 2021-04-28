@@ -56,7 +56,11 @@
         position: relative;   
     }
     .arrowleft{
-        margin-right: 35px;
+        margin-right: 20px;
+        
+    }
+    .arrowright{
+        margin-left: -10px;
         
     }
     #slide1BTN{
@@ -177,7 +181,7 @@
         position: relative;
         top: 0px;
         height: 40px;
-        right: 15px;
+        right: 10px;
         
     }
 
@@ -185,6 +189,19 @@
     .bg3{
         height: 1600px;
         
+    }
+    .upcoing-class h2{
+        font-size: 20px;
+    }
+    .upcoing-class h5{
+        font-size: 10px;
+    }
+    .upcoing-class{
+        margin-right: 35px;
+        
+    }
+    .classes{
+        width: 290px;
     }
 
     /* Section4*/
