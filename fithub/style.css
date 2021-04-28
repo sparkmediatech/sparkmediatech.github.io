@@ -1476,13 +1476,24 @@ margin-left: 35px;
 }
 .section7-container{
     position: relative;
-    right: 60px;
+    right: 80px;
+    width: 500px;
 }
-.section7-container p{
-    font-size: 10px;
-}
+
 .sect7-img1-title1{
     width: 90%;
+}
+.bg7 h3{
+    font-size: 25px;
+}
+.bg7 h5{
+    font-size: 13px;
+}
+.bg7 p{
+    font-size: 10px;
+}
+.bg7 h6{
+    font-size: 7px;
 }
 /* Section 8*/
 .sect8-container{
