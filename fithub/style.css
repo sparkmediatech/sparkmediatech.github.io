@@ -1318,8 +1318,10 @@ margin-left: 35px;
 
     /* section 3  */
     .bg3{
-        height: 1600px;
-        
+        height: 1600px;   
+    }
+    .bg3 h2{
+        font-size: 25px;
     }
 
     /* Section4*/
@@ -1331,7 +1333,15 @@ margin-left: 35px;
     grid-template-columns: repeat(auto-fit, minmax(100px, .7fr));
     justify-content: center;
 }
-
+.bg4 h2{
+    font-size: 25px;
+}
+.bg4 p{
+    font-size: 15px;
+}
+.bg4 .btn{
+    margin-bottom: 40px;
+}
 /* Section5*/
 #bg5{
    display: none;
