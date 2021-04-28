@@ -367,23 +367,28 @@
     width: 90%;
 }
 /* Section 8*/
-.bg8 .sect8-container{
-    align-content: center;
+.bg8 .bg-flex{
+    flex-direction: column;
 }
 .bg8 h3{
-    font-size: 20px;
+    font-size: 15px;
 }
-.sect8-container{
-    margin-left: 35px;
-    width: 260px;
-    overflow: hidden;
-}
-.bg8 p{
+.bg8 h4{
     font-size: 15px;
 }
 .bg8 .section-firstchild-para{
+    font-size: 8px;
+}
+.section8-firstchild-container{
+    width: 240px;
+}
+.section8-firstchild-container .section-firstchild-para{
     font-size: 10px;
 }
+.bg8 p{
+    font-size: 10px;
+}
+
 .sect8-video-container{
     width: 240px;
     height: 300px;
@@ -391,7 +396,7 @@
     margin-bottom: 50px;
     position: relative;
     bottom: 100px;
-    right: 30px;
+    
 }
 /* Section 9*/
 
