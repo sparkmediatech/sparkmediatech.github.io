@@ -17,6 +17,7 @@
 }
 .header{
     background-color: black;
+    
 }
 .header .flex{
     justify-content: space-between;
@@ -927,6 +928,7 @@ margin-left: 35px;
     #first-paragraph{
         font-size: 13px;
     }
+    
     #slide1BTN{
         font-size: 10px;
     }
@@ -1224,8 +1226,10 @@ margin-left: 35px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        position: relative;
-        
+        position: relative;  
+    }
+    .arrowleft{
+        margin-right: 30px;
     }
     #slide1BTN{
         position: relative;
@@ -1247,6 +1251,7 @@ margin-left: 35px;
     #fist-title2{
         font-size: 20px;
     }
+    
 
     .slide1box2{
         position: absolute;
@@ -1526,3 +1531,6 @@ margin-left: 35px;
 
 }
  
+
+
+
