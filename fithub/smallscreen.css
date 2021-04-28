@@ -367,11 +367,23 @@
     width: 90%;
 }
 /* Section 8*/
+.bg8 .sect8-container{
+    align-content: center;
+}
+.bg8 h3{
+    font-size: 20px;
+}
 .sect8-container{
     margin-left: 35px;
-    width: 400px;
+    width: 240px;
+    overflow: hidden;
 }
-
+.sect8-video-container{
+    width: 250px;
+    position: relative;
+    bottom: 100px;
+    right: 30px;
+}
 /* Section 9*/
 
 .section9-title-container{
