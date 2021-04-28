@@ -497,7 +497,7 @@ var mobile = window.matchMedia("(max-width: 500px)")
    
 
   //section 4//
-  var n = window.matchMedia("(max-width: 368px)")
+  var n = window.matchMedia("(max-width: 400px)")
   if(n.matches){
 
   slideRight();
