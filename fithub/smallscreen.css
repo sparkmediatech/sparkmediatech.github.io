@@ -2,7 +2,7 @@
 
 
 /* Mobile*/
-@media  ( min-width: 320px){
+@media  (max-width: 368px){
     .bg1{
         height: 70vh;
         width: auto;
