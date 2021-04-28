@@ -201,7 +201,7 @@
         
     }
     .classes{
-        width: 290px;
+        width: 310px;
     }
 
     /* Section4*/
@@ -212,6 +212,13 @@
 .bg4 .grid{
     grid-template-columns: repeat(auto-fit, minmax(100px, .7fr));
     justify-content: center;
+}
+
+.bg4 h2{
+    font-size: 30px;
+}
+.bg4 p{
+    font-size: 15px;
 }
 
 /* Section5*/
