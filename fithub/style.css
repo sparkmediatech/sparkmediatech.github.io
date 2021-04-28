@@ -1477,7 +1477,7 @@ margin-left: 35px;
 .section7-container{
     position: relative;
     right: 80px;
-    width: 500px;
+    
 }
 
 .sect7-img1-title1{
@@ -1494,6 +1494,8 @@ margin-left: 35px;
 }
 .bg7 h6{
     font-size: 7px;
+    position: relative;
+    left: 200px;
 }
 /* Section 8*/
 .sect8-container{
@@ -1513,8 +1515,11 @@ margin-left: 35px;
     gap: 10px;
 }
 .sect9inputbox-container{
-    width: 230px;
+    width: 200px;
     height: 45px;
+}
+.sect9inputbox::placeholder{
+    font-size: 10px;
 }
 /* Section 10 */
 .section10-container{
@@ -1528,7 +1533,7 @@ margin-left: 35px;
 }
 /* section 11*/
 #gmap_canvas{
-    width: 460px;
+    width: 430px;
     text-align: center;
     margin-left: 30px;
 }
