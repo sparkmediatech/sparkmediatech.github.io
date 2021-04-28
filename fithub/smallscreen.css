@@ -197,11 +197,16 @@
         font-size: 10px;
     }
     .upcoing-class{
-        margin-right: 35px;
+        margin-right: 0px;
         
     }
-    
+    .smallbox{
+        width: 220px;
+    }
+    .classes{
+        margin-left: 10px;
 
+}
     /* Section4*/
 
 .slide4container{
