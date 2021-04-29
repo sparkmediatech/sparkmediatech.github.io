@@ -1244,7 +1244,7 @@ margin-left: 35px;
         opacity: 0;
         transition: .9s ease-in;
         position: absolute;
-        top: 5px;  
+        top: 0px;  
     }
 
     #fist-title{
