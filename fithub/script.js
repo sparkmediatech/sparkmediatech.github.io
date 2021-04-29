@@ -473,7 +473,7 @@ var mobile = window.matchMedia("(max-width: 500px)")
 
 
   /* Mobile*/
-  var m = window.matchMedia("(max-width: 368px)")
+  var m = window.matchMedia("(max-width: 400px)")
   if(m.matches){
     slide1.style.left = "-25vw";
     slide1box1.style.opacity = "1";
