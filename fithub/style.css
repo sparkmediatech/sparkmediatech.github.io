@@ -1181,7 +1181,7 @@ margin-left: 35px;
 /* Mobile*/
 @media(max-width: 500px){
     .bg1{
-        height: 70vh;
+        height: 75vh;
         width: auto; 
     }
 
@@ -1210,7 +1210,7 @@ margin-left: 35px;
         width: 250px;
         height: 200px;
         position: relative;
-        top: 120px;
+        top: 130px;
         left: -100vw;
         transition: 1s ease-in-out;
     }
@@ -1219,7 +1219,7 @@ margin-left: 35px;
         width: 250px;
         height: 200px;
         position: relative;
-        top: 10px;
+        top: 0px;
         left: -100vw;
         transition: 1s ease-in-out;
     }
@@ -1231,7 +1231,7 @@ margin-left: 35px;
         position: relative;  
     }
     .arrowleft{
-        margin-right: 30px;
+        margin-right: 10px;
     }
     #slide1BTN{
         position: relative;
@@ -1244,7 +1244,7 @@ margin-left: 35px;
         opacity: 0;
         transition: .9s ease-in;
         position: absolute;
-        top: -20px;  
+        top: 0px;  
     }
 
     #fist-title{
@@ -1553,7 +1553,7 @@ margin-left: 35px;
     margin-bottom: 50px;
     width: 200px;
     position: relative;
-    left: 60px;
+    left: 70px;
 }
 
 .bg13 h3{
