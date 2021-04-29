@@ -1235,8 +1235,8 @@ margin-left: 35px;
     }
     #slide1BTN{
         position: relative;
-        top: 4px;
-        left: 65px;
+        top: 10px;
+        left: 200px;
         padding: 5px 15px 5px 15px;
         
     }
@@ -1244,7 +1244,7 @@ margin-left: 35px;
         opacity: 0;
         transition: .9s ease-in;
         position: absolute;
-        top: -20px;  
+        top: 0px;  
     }
 
     #fist-title{
