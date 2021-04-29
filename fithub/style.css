@@ -1181,7 +1181,7 @@ margin-left: 35px;
 /* Mobile*/
 @media(max-width: 500px){
     .bg1{
-        height: 75vh;
+        height: 70vh;
         width: auto; 
     }
 
@@ -1210,7 +1210,7 @@ margin-left: 35px;
         width: 250px;
         height: 200px;
         position: relative;
-        top: 133px;
+        top: 200px;
         left: -100vw;
         transition: 1s ease-in-out;
     }
