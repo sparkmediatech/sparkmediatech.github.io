@@ -381,7 +381,7 @@ var mobile = window.matchMedia("(max-width: 500px)")
     if(mobile.matches){
     slide1.style.left = "-25vw";
     slide1box1.style.opacity = "1";
-    
+    slide1box1.style.top = "-20";
     slide1BTN.style.opacity = "1";
     myPauseDelay = setTimeout(mySection1Slide1Out, delayPause);
 
@@ -389,7 +389,7 @@ var mobile = window.matchMedia("(max-width: 500px)")
     function mySection1Slide1Out(){
         slide1.style.left = "-100vw";
         slide1box1.style.opacity = "0";
-        
+        slide1box1.style.top = "-20";
         slide1BTN.style.opacity = "0";
         delayInterval = setTimeout(mySection1Slide2, firstInterval);
       }
@@ -412,14 +412,14 @@ var mobile = window.matchMedia("(max-width: 500px)")
       }
       function arrowRightSlide1In(){
       slide1.style.left = "-25vw";
-      
+      slide1box1.style.top = "-20";
       slide1box1.style.opacity = "1"
       slide1BTN.style.opacity = "1";
     }
     
       function arrowRightSlide2(){
         slide1.style.left = "-100vw";
-        
+        slide1box1.style.top = "-20";
         slide1box1.style.opacity = "0"
         
         btnpalse = setTimeout(arrowRightSlide2In, btndelay);
