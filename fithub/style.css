@@ -35,6 +35,12 @@
 .mobileText{
     display: none;
 }
+.mobileText p{
+    display: none;
+}
+.bg1BTN{
+    display: none;
+}
 
 /* Slider codes  */
 
