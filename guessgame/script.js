@@ -36,11 +36,12 @@ function checkGuess() {
     
     if ( guessInput.trim()=="" ) {
         alert("Please, input a number between 1 to 50");
+        document.querySelector('.form').reset();
         
       }
     else if (!(guessInput.match(regex))) {
         alert("Invalid characters. Please, input number between 1 - 50");
-        
+        document.querySelector('.form').reset();
 
     }
     else{
@@ -74,7 +75,7 @@ function confirm(){
   
     }
     
-    else if( count ==5 && guessInput != randomNumber ){
+    else if( count ==10 && guessInput != randomNumber ){
         
         gameOverBox.style.transform = "scale(1)"
         gameOverBox.style.display = 'flex';

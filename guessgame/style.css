@@ -220,29 +220,25 @@ body{
 }
 
 
-
-/* Mobile*/
-@media(max-width: 320px){
+/* tablet*/
+@media(max-width: 768px){
     .bg{
-        height: 80vh;
+        height: 70vh;
     }
-    .section1-text h3{
-        font-size: 25px;
-    }
-
+    
     .congratulationsBox{
         display: flex;
         flex-direction: column;
         background-color: #196F3D;
-        width: 80%;
+        width: 70%;
         height: 200px;
         border-radius: 10px;
         box-shadow: 3px 4px 0 #E5E8E8;
         align-items: center;
         margin-left: 180px;
         position: relative;
-        bottom: 370px;
-        right: 150px;
+        bottom: 150px;
+        right: 80px;
         transform:scale(0);
         transition: transform .3s ease-out;  
     }
@@ -251,43 +247,51 @@ body{
         display: flex;
         flex-direction: column;
         background-color: #E74C3C;
-        width: 80%;
+        width: 70%;
         height: 200px;
         border-radius: 10px;
         box-shadow: 3px 4px 0 #E5E8E8;
         align-items: center;
         margin-left: 180px;
         position: relative;
-        bottom: 500px;
-        right: 150px;
+        bottom: 350px;
+        right: 80px;
         transform:scale(0);
         transition: transform .3s ease-out;
     }
+
     .wrongBox .tooLow{
-        font-size: 8px;
+        font-size: 13px;
         text-align: center;
     }
 
+    
     .gameOverBox{
         display: flex;
         flex-direction: column;
         background-color: #1B2631;
-        width: 80%;
+        width: 70%;
         height: 200px;
         border-radius: 10px;
         box-shadow: 3px 4px 0 #E5E8E8;
         align-items: center;
         margin-left: 180px;
         position: relative;
-        bottom: 760px;
-        right: 150px;
+        bottom: 520px;
+        right: 80px;
         transform:scale(0);
         transition: transform .3s ease-out;
         
     }
 
-
 }
+
+
+
+
+
+
+
 
 
 
@@ -359,26 +363,28 @@ body{
 
 }
 
-
-/* tablet*/
-@media(max-width: 768px){
+/* Mobile*/
+@media(max-width: 320px){
     .bg{
-        height: 70vh;
+        height: 80vh;
     }
-    
+    .section1-text h3{
+        font-size: 25px;
+    }
+
     .congratulationsBox{
         display: flex;
         flex-direction: column;
         background-color: #196F3D;
-        width: 70%;
+        width: 80%;
         height: 200px;
         border-radius: 10px;
         box-shadow: 3px 4px 0 #E5E8E8;
         align-items: center;
         margin-left: 180px;
         position: relative;
-        bottom: 150px;
-        right: 80px;
+        bottom: 370px;
+        right: 150px;
         transform:scale(0);
         transition: transform .3s ease-out;  
     }
@@ -387,42 +393,40 @@ body{
         display: flex;
         flex-direction: column;
         background-color: #E74C3C;
-        width: 70%;
+        width: 80%;
         height: 200px;
         border-radius: 10px;
         box-shadow: 3px 4px 0 #E5E8E8;
         align-items: center;
         margin-left: 180px;
         position: relative;
-        bottom: 350px;
-        right: 80px;
+        bottom: 500px;
+        right: 150px;
         transform:scale(0);
         transition: transform .3s ease-out;
     }
-
     .wrongBox .tooLow{
-        font-size: 13px;
+        font-size: 8px;
         text-align: center;
     }
 
-    
     .gameOverBox{
         display: flex;
         flex-direction: column;
         background-color: #1B2631;
-        width: 70%;
+        width: 80%;
         height: 200px;
         border-radius: 10px;
         box-shadow: 3px 4px 0 #E5E8E8;
         align-items: center;
         margin-left: 180px;
         position: relative;
-        bottom: 520px;
-        right: 80px;
+        bottom: 760px;
+        right: 150px;
         transform:scale(0);
         transition: transform .3s ease-out;
         
     }
 
-}
 
+}
