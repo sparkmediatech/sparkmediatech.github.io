@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:linear-gradient(rgba(0,0,0,0.5), #F1C40F),url(image/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+.section1-text{
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 1100px;
+}
+.section1-box{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 40px;
+    max-width: 1100px;
+    margin-top: 20px;
+    
+}
+.section1-text p{
+    color: #FBFCFC;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 1.5em;
+   
+}
+.section1-text h3{
+    color: #FBFCFC;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 500;
+    
+}
+.section1-box p{
+    color: #FBFCFC;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.guessInput{
+    outline: none;
+    height: 35px;
+    text-indent: 15px;
+    font-size: 15px;
+    width: 100px;
+    border-radius: 5px;
+    
+}
+.submitBTN{
+    width:150px;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: sans-serif;    
+}
+.submitBTN:hover{
+    background-color: #D98880 ;
+    color: #FBFCFC;
+    cursor: pointer;
+}
+
+.congratulationsBox{
+    display: flex;
+    flex-direction: column;
+    background-color: #196F3D;
+    width: 45%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 0 #E5E8E8;
+    align-items: center;
+    margin-left: 180px;
+    position: relative;
+    bottom: 150px;
+    transform:scale(0);
+    transition: transform .3s ease-out;
+    
+}
+.congratulationsBox p{
+    color: #FBFCFC;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin-top: 5px;
+}
+.trophy{
+    color: #FBFCFC;
+    font-size: 60px;
+    margin-top: 20px;
+    animation: jump .4s ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+.check{
+    color: #FBFCFC;
+    font-size: 80px;
+    margin-top: 5px;
+}
+
+.wrongBox{
+    display: flex;
+    flex-direction: column;
+    background-color: #E74C3C;
+    width: 45%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 0 #E5E8E8;
+    align-items: center;
+    margin-left: 180px;
+    position: relative;
+    bottom: 390px;
+    transform:scale(0);
+    transition: transform .3s ease-out;
+}
+.sad{
+    color: #FBFCFC;
+    font-size: 60px;
+    margin-top: 15px;
+}
+.wrongBox p{
+    color: #FBFCFC;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin-top: 5px;
+}
+.tryAgain{
+    width:150px;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: sans-serif;
+    cursor: pointer;
+    background-color: #D0D3D4 ;  
+    color: black;
+    outline: none;
+    transform:scale(0);
+    transition: transform .3s ease-out;
+}
+
+.gameOverBox{
+    display: flex;
+    flex-direction: column;
+    background-color: #1B2631;
+    width: 45%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 0 #E5E8E8;
+    align-items: center;
+    margin-left: 180px;
+    position: relative;
+    bottom: 600px;
+    transform:scale(0);
+    transition: transform .3s ease-out;
+    
+}
+.gameOverBox h3{
+    color: #FBFCFC;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin-top: 5px;
+}
+
+.gameover{
+    width:150px;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: sans-serif;
+    cursor: pointer;
+    background-color: #D0D3D4 ;  
+    color: black;
+    outline: none;
+    transform:scale(0);
+    transition: transform .3s ease-out;
+}
+
+.playAgain{
+    width:150px;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: sans-serif;
+    cursor: pointer;
+    background-color: #D0D3D4;  
+    color: black;
+    outline: none;
+    margin-top: 5px;
+    transform:scale(0);
+    transition: transform .3s ease-out;
+   
+}
+
+@keyframes jump{
+    0%{
+        transform: translateY(-10px);
+    }
+    15%{
+        transform: translateY(10px);
+    }
+}
+
+
+
+/* Mobile*/
+@media(max-width: 320px){
+    .bg{
+        height: 80vh;
+    }
+    .section1-text h3{
+        font-size: 25px;
+    }
+
+    .congratulationsBox{
+        display: flex;
+        flex-direction: column;
+        background-color: #196F3D;
+        width: 80%;
+        height: 200px;
+        border-radius: 10px;
+        box-shadow: 3px 4px 0 #E5E8E8;
+        align-items: center;
+        margin-left: 180px;
+        position: relative;
+        bottom: 370px;
+        right: 150px;
+        transform:scale(0);
+        transition: transform .3s ease-out;  
+    }
+
+    .wrongBox{
+        display: flex;
+        flex-direction: column;
+        background-color: #E74C3C;
+        width: 80%;
+        height: 200px;
+        border-radius: 10px;
+        box-shadow: 3px 4px 0 #E5E8E8;
+        align-items: center;
+        margin-left: 180px;
+        position: relative;
+        bottom: 500px;
+        right: 150px;
+        transform:scale(0);
+        transition: transform .3s ease-out;
+    }
+    .wrongBox .tooLow{
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .gameOverBox{
+        display: flex;
+        flex-direction: column;
+        background-color: #1B2631;
+        width: 80%;
+        height: 200px;
+        border-radius: 10px;
+        box-shadow: 3px 4px 0 #E5E8E8;
+        align-items: center;
+        margin-left: 180px;
+        position: relative;
+        bottom: 760px;
+        right: 150px;
+        transform:scale(0);
+        transition: transform .3s ease-out;
+        
+    }
+
+
+}
+
+
+
+/* Mobile*/
+@media(max-width: 500px){
+    .bg{
+        height: 80vh;
+    }
+    .section1-text h3{
+        font-size: 25px;
+    }
+
+    .congratulationsBox{
+        display: flex;
+        flex-direction: column;
+        background-color: #196F3D;
+        width: 70%;
+        height: 200px;
+        border-radius: 10px;
+        box-shadow: 3px 4px 0 #E5E8E8;
+        align-items: center;
+        margin-left: 180px;
+        position: relative;
+        bottom: 300px;
+        right: 115px;
+        transform:scale(0);
+        transition: transform .3s ease-out;  
+    }
+
+    .wrongBox{
+        display: flex;
+        flex-direction: column;
+        background-color: #E74C3C;
+        width: 70%;
+        height: 200px;
+        border-radius: 10px;
+        box-shadow: 3px 4px 0 #E5E8E8;
+        align-items: center;
+        margin-left: 180px;
+        position: relative;
+        bottom: 500px;
+        right: 115px;
+        transform:scale(0);
+        transition: transform .3s ease-out;
+    }
+    .wrongBox .tooLow{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .gameOverBox{
+        display: flex;
+        flex-direction: column;
+        background-color: #1B2631;
+        width: 70%;
+        height: 200px;
+        border-radius: 10px;
+        box-shadow: 3px 4px 0 #E5E8E8;
+        align-items: center;
+        margin-left: 180px;
+        position: relative;
+        bottom: 670px;
+        right: 115px;
+        transform:scale(0);
+        transition: transform .3s ease-out;
+        
+    }
+
+
+}
+
+
+/* tablet*/
+@media(max-width: 768px){
+    .bg{
+        height: 70vh;
+    }
+    
+    .congratulationsBox{
+        display: flex;
+        flex-direction: column;
+        background-color: #196F3D;
+        width: 70%;
+        height: 200px;
+        border-radius: 10px;
+        box-shadow: 3px 4px 0 #E5E8E8;
+        align-items: center;
+        margin-left: 180px;
+        position: relative;
+        bottom: 150px;
+        right: 80px;
+        transform:scale(0);
+        transition: transform .3s ease-out;  
+    }
+
+    .wrongBox{
+        display: flex;
+        flex-direction: column;
+        background-color: #E74C3C;
+        width: 70%;
+        height: 200px;
+        border-radius: 10px;
+        box-shadow: 3px 4px 0 #E5E8E8;
+        align-items: center;
+        margin-left: 180px;
+        position: relative;
+        bottom: 350px;
+        right: 80px;
+        transform:scale(0);
+        transition: transform .3s ease-out;
+    }
+
+    .wrongBox .tooLow{
+        font-size: 13px;
+        text-align: center;
+    }
+
+    
+    .gameOverBox{
+        display: flex;
+        flex-direction: column;
+        background-color: #1B2631;
+        width: 70%;
+        height: 200px;
+        border-radius: 10px;
+        box-shadow: 3px 4px 0 #E5E8E8;
+        align-items: center;
+        margin-left: 180px;
+        position: relative;
+        bottom: 520px;
+        right: 80px;
+        transform:scale(0);
+        transition: transform .3s ease-out;
+        
+    }
+
+}
+

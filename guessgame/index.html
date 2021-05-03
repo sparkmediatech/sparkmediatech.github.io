@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="bg">
+        <div class="section1-text">
+            <h3>GUESSING GAME</h3>
+            <p>We selected a SECRET NUMBER between 1 to 50. Let see how good you're
+                with guessing <br> game.  You have 5 turns to guess the right secret number 
+            or the guessing game will <br> be over.  You're free to try again even if you don't
+            get the secret number on your 5th <br> guess </p>
+        </div>
+
+        <div class="section1-box">
+            <p>Guess the Secret Number</p>
+            <form action="#" class="form" name="formName">
+                <input type="text" class="guessInput" required>
+
+                <input onclick="checkGuess(); return false" name="nameInput" type="submit" class="submitBTN">
+            </form>
+        </div>
+
+        <div class="congratulationsBox">
+            <ion-icon name="trophy-outline" class="trophy"></ion-icon>
+             <p>YES, YOU GOT IT!</p>
+            <p>CONGRATULATIONS!</p>
+           
+
+            <button  class="playAgain" >PLAY AGAIN</button>
+
+        </div>
+
+
+        <div class="wrongBox">
+            <ion-icon name="sad-outline" class="sad"></ion-icon>
+             <p>YOU MISSED IT!</p>
+            <p class="tooLow"></p>
+            <p class="tooHigh"></p>
+            <button  class="tryAgain" id="start">TRY AGAIN</button>
+
+        </div>
+
+        <div class="gameOverBox">
+            <ion-icon name="sad-outline" class="sad"></ion-icon>
+             <h3>GAME OVER!!</h3>
+            <button class="gameover">RESET</button>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
