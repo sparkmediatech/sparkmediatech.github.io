@@ -125,6 +125,7 @@ function confirm(){
             document.querySelector(".section1-box").style.pointerEvents = "auto"; 
             section1Box.style.opacity = '1';
             section1Text.style.opacity = '1';
+            document.querySelector('.form').reset();
 
             
       });
