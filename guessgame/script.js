@@ -75,7 +75,7 @@ function confirm(){
   
     }
     
-    else if( count ==5 && guessInput != randomNumber ){
+    else if( count ==10 && guessInput != randomNumber ){
         
         gameOverBox.style.transform = "scale(1)"
         gameOverBox.style.display = 'flex';
