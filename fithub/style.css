@@ -2056,7 +2056,7 @@ margin-left: 35px;
 }
 .section8-firstchild-container{
     width: 240px;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 .section8-firstchild-container .section-firstchild-para{
     font-size: 10px;
@@ -2116,7 +2116,7 @@ margin-left: 35px;
 }
 .sectiion10-inputbox-container{
     width: 280px;
-    margin-right: 10px;
+    margin-right: 5px;
     
 }
 .section10-title-container h3{
@@ -2127,9 +2127,9 @@ margin-left: 35px;
 }
 /* section 11*/
 #gmap_canvas{
-    width: 290px;
+    width: 280px;
     text-align: center;
-    margin-left: 15px;
+    margin-left: 12px;
     overflow: hidden;
 }
 /* section 12*/
@@ -2150,6 +2150,9 @@ margin-left: 35px;
     position: relative;
     left: -30px;
 }
-
+.bg13 p{
+    text-align: center;
+    font-size: 10px;
+}
 
 }
