@@ -904,6 +904,10 @@ margin-left: 35px;
     transform: translateY(-15px);
 
 }
+/* section 12 mobile button */
+.mobile-btn{
+    display: none;
+}
 
 
 
@@ -1654,7 +1658,7 @@ margin-left: 35px;
 
 
 /* Mobile*/
-@media  (max-width:368px){
+@media  (max-width: 400px) and (min-width: 320px){
     .bg1{
         height: 70vh;
         width: auto;
@@ -1784,7 +1788,7 @@ margin-left: 35px;
 
     /* section 2  */
     .bg2{
-        height: 60vh;
+        height: 50vh;
     }
 
     .slide3{
@@ -1843,6 +1847,7 @@ margin-left: 35px;
         margin-left: 30px;       
         height: 40px;
         font-size: 10px;
+        display: none;
        
         
     }
@@ -2078,6 +2083,7 @@ margin-left: 35px;
 }
 
 .sect8-video-container{
+    display: none;
     width: 240px;
     height: 300px;
     margin-top: 50px;
@@ -2166,5 +2172,7 @@ margin-left: 35px;
     text-align: center;
     font-size: 10px;
 }
-
+.mobile-btn{
+    display: none;
+}
 }
