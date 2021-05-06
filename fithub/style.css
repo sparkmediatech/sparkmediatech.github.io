@@ -2145,6 +2145,7 @@ margin-left: 35px;
 }
 /* section 11*/
 #gmap_canvas{
+    display: none;
     width: 280px;
     text-align: center;
     margin-left: 12px;
@@ -2167,12 +2168,16 @@ margin-left: 35px;
     width: 200px;
     position: relative;
     left: -30px;
+    display: none;
 }
 .bg13 p{
     text-align: center;
     font-size: 10px;
 }
 .mobile-btn{
-    display: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    
 }
 }
