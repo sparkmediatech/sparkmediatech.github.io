@@ -1768,7 +1768,7 @@ margin-left: 35px;
 
     /* section 2  */
     .bg2{
-        height: 70vh;
+        height: 60vh;
     }
 
     .slide3{
@@ -1785,14 +1785,14 @@ margin-left: 35px;
     }
     .bg2 h2{
         font-size: 15px;
-        margin-right: 50px;
+        
         position: relative;
         bottom: 60px;
 
     }
     .bg2 h5{
         font-size: 15px;
-        margin-right: 50px;
+        
         position: relative;
         bottom: 50px;
     }
@@ -1805,18 +1805,20 @@ margin-left: 35px;
         right: 60px;
       
     }
-    .slide2-text p{
-        font-size: 14px;
+    .bg2 p{
+        font-size: 12px;
         line-height: 1.3em;
-        margin-top: 25px;
+        margin: 0 0;
+        margin-top: 30px;
+        
         
     }
     .slide2-text h4{
         margin: -16px;
         font-size: 10px;
         text-align: center;
-        margin-right: 100px;
-        margin-left:7px ;
+        
+        
     }
 
     .section2-header-container h5{
@@ -1825,11 +1827,11 @@ margin-left: 35px;
 
     .bg2 .btn2{
         padding: 5px 10px 5px 10px;
-        margin-bottom: 10px;
-        position: relative;
-        top: 0px;
+        margin-top: 15px;
+        
+        
         height: 40px;
-        right: 10px;
+       
         
     }
 
@@ -2004,7 +2006,7 @@ margin-left: 35px;
 
 /* Section 7*/
 .bg7 .grid-3{
-    grid-template-columns: repeat(auto-fit, minmax(100px, 250px));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
     justify-content: center;
     gap: 50px;
 
@@ -2014,12 +2016,13 @@ margin-left: 35px;
     right: 30px;
 }
 .section7-container p{
-    font-size: 6px;
-    position: relative;
-    right: 15px;
+    font-size: 9px;
+    line-height: 1.3em;
+    
 }
 .sect7-img1-title1{
-    width: 90%;
+    width: 170px;
+    margin-left: -30px;
 }
 .bg7 h3{
     font-size: 17px;
@@ -2027,11 +2030,20 @@ margin-left: 35px;
 .bg7 h5{
     font-size: 10px;
 }
+.sect7-img1{
+    width: 70px;
+    height: 70px;  
+}
+.bg7 h6{
+    margin-left: -30px;
+}
 
 /* Section 8*/
 .bg8 .bg-flex{
     flex-direction: column;
+    
 }
+
 
 .bg8 h3{
     font-size: 15px;
@@ -2044,6 +2056,7 @@ margin-left: 35px;
 }
 .section8-firstchild-container{
     width: 240px;
+    margin-left: 20px;
 }
 .section8-firstchild-container .section-firstchild-para{
     font-size: 10px;
@@ -2116,7 +2129,7 @@ margin-left: 35px;
 #gmap_canvas{
     width: 290px;
     text-align: center;
-    margin-left: 10px;
+    margin-left: 15px;
     overflow: hidden;
 }
 /* section 12*/
