@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evaluate</title>
 
-    <link rel="stylesheet" href="style.css">
+    
     <link rel="stylesheet" href="utility.css">
     <link rel="stylesheet" href="table.css">
     
@@ -14,24 +14,465 @@
 <body>
     <section class="bg1">
         <div class="bg1-container flex conatiner">
-            <h2>Welcome - </h2> <h2 class="userName"></h2>
+            <h2 class="custom-text1 welcome">Welcome - </h2> <h2 class="userName custom-text2"></h2>
+        </div>
+
+        <div class="container evaluationContainer">
+            <h3 class="custom-text2">Training Evaluation Questionnaire</h3>
+        </div>
+    <div class="container tabelContainer">
+        
+        
+        <table >
+                    
+            <tr>
+            <td class="tdA">Course Name: <input type="text" class="inputBox"></td>
+            <td class="tdB">Trainer: <input type="text" class="inputBox"></td>
+            </tr>
             
 
-        </div>
+            <tr>
+                <td class="tdA">Date Attended:<input type="text" class="inputBox"></td>
+                <td class="tdB">Class Room:<input type="text" class="inputBox"></td>
+                </tr>
+
+                <tr>
+                    <td class="tdA">Your Name:<input type="text" class="inputBox"></td>
+                    <td class="tdB"><input type="text" class="inputBox" readonly></td>
+                    </tr>
+           
+            </table>
+
+    </div>
+    <div class="container ratingContainer">
+        <p>1 = Poor</p>
+        <p>2 = Fair</p>
+        <p>3 = Good</p>
+        <p>4 = Very Good</p>
+
+    </div>
+    <div class="container titleTxtContainer">
+        <p class="custom-text2">Circle the appropriate answer</p>
+    </div>
+<div class=" container section2 flex">
+    <table>
+        <tr>
+            <td class="tdA">Content of the training:</td>
+            <td class="tdB"><input type="text" class="inputBox"></td>
+            
+            </tr>
+
+            <tr class="section1">
+                <td class="tdA">Suitability of course material:</td>
+                <td class="tdB">
+                    <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                    
+                   <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
+                   <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
+                   <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                </td>
+                
+                
+                </tr>
+                <tr class="section1">
+                    <td class="tdA">Quality of course material:</td>
+                    <td class="tdB">
+                        <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                        
+                       <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
+                       <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
+                       <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                    </td>
+                    
+                    
+                    </tr>
+                
+
+
+                    <tr class="section1">
+                        <td class="tdA">Skill Upgrade:</td>
+                        <td class="tdB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                            
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                        </td>      
+                    </tr>
+    
+    
+                    <tr class="section1">
+                        <td class="tdA">I learnt enough to be able to support my job or my career:</td>
+                        <td class="tdB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                            
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                        </td>      
+                    </tr>
+    
+                    <tr class="section1">
+                        <td class="tdA">My skill level before the training:</td>
+                        <td class="tdB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                            
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                        </td>      
+                    </tr>
+    
+
+                    <tr class="section1">
+                        <td class="tdA">My skill level after the training:</td>
+                        <td class="tdB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                            
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                        </td>      
+                    </tr>
+
+    </table>
+
+</div>
+
+
+<div class="section2 container flex">
+    <table>
+
+        
+        <tr>
+            <td class="tdA">The session/work organisation:</td>
+            <td class="tdB"><input type="text" class="inputBox"></td>
+            
+            </tr>
+
+            <tr class="section1">
+                <td class="tdA">The training delivery was well presented:</td>
+                <td class="tdB">
+                    <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                    
+                   <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
+                   <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
+                   <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                </td>
+                
+                
+                </tr>
+                <tr class="section1">
+                    <td class="tdA">I enjoyed the activities and exercises:</td>
+                    <td class="tdB">
+                        <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                        
+                       <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
+                       <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
+                       <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                    </td>
+                    
+                    
+                    </tr>
+                
+
+
+                    <tr class="section1">
+                        <td class="tdA">The course was interactive:</td>
+                        <td class="tdB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                            
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                        </td>      
+                    </tr>
+    
+    
+                    <tr class="section1">
+                        <td class="tdA">The practical was extensive:</td>
+                        <td class="tdB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                            
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                        </td>      
+                    </tr>
+    
+                    <tr class="section1">
+                        <td class="tdA">The facilities are comfortable (e.g room, temperature, seating etc:</td>
+                        <td class="tdB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                            
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                        </td>      
+                    </tr>
+    
+
+                    <tr class="section1">
+                        <td class="tdA">The general logistics of the training was satisfactory:</td>
+                        <td class="tdB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                            
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                        </td>      
+                    </tr>
+    </table>
+
+
+
+</div>
+
+
+
+<div class="section3 container flex">
+    <table>
+
+        
+        <tr>
+            <td class="tdA">The Trainer:</td>
+            <td class="tdB"><input type="text" class="inputBox"></td>
+            
+            </tr>
+
+            <tr class="section1">
+                <td class="tdA">Trainer explained the content clearly:</td>
+                <td class="tdB">
+                    <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                    
+                   <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
+                   <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
+                   <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                </td>
+                
+                
+                </tr>
+                <tr class="section1">
+                    <td class="tdA">Trainer presented material in an organised and easy-to-follow style:</td>
+                    <td class="tdB">
+                        <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                        
+                       <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
+                       <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
+                       <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                    </td>
+                    
+                    
+                    </tr>
+                
+
+
+                    <tr class="section1">
+                        <td class="tdA">Trainer encouraged the group to get involved in discussion/activities:</td>
+                        <td class="tdB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                            
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                        </td>      
+                    </tr>
+    
+    
+                    <tr class="section1">
+                        <td class="tdA">Trainer managed the group discussion effectively:</td>
+                        <td class="tdB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                            
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                        </td>      
+                    </tr>
+    
+                    <tr class="section1">
+                        <td class="tdA">Trainer utilised a variety of training techniques:</td>
+                        <td class="tdB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                            
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                        </td>      
+                    </tr>
+    
+
+                    <tr class="section1">
+                        <td class="tdA">Overall competence of the trainer:</td>
+                        <td class="tdB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                            
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                        </td>      
+                    </tr>
+
+
+                    <tr class="section1">
+                        <td class="tdA">Punctuality:</td>
+                        <td class="tdB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                            
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                        </td>      
+                    </tr>
+
+                    <tr class="section1">
+                        <td class="tdA">Is the trainer punctual to class?:</td>
+                        <td class="tdB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                            
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                        </td>      
+                    </tr>
+    </table>
+</div>
+
+
+
+<div class="container section3 flex">
+
+<table>
+    
+        <tr>
+            <td class="tdA">Others: <input type="text" class="inputBox" readonly></td>
+            <td class="tdB">
+                <input type="text" class="inputBox" name="option"></label>
+                
+            </td>
+        </tr>
+    
+
+        <tr class="section1">
+            <td class="tdA">Overall satisfaction:</td>
+            <td class="tdB">
+                <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                
+               <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
+               <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
+               <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+            </td>      
+        </tr>
+
+</table>
+</div>
+
+<div class="container section4 flex">
+    <textarea class="textAreaBox" name="" id="" cols="150" rows="10"></textarea>
+</div>
+
+<div class="container tabelContainer2">
+        
+    <p class="mid-text">Please kindly give a detailed but concise testimonial on your experience with us at New Horizons, Nigeria during the training</p>
+    <table >
+                
+        <tr>
+        <td class="tdA">Name: <input type="text" class="inputBox" readonly></td>
+        <td class="tdB"> <input type="text" class="inputBox"></td>
+        </tr>
+        
+
+        <tr>
+            <td class="tdA">Email:<input type="text" class="inputBox" readonly></td>
+            <td class="tdB"><input type="text" class="inputBox"></td>
+            </tr>
+
+            <tr>
+                <td class="tdA">TelePhone:<input type="text" class="inputBox" readonly></td>
+                <td class="tdB"><input type="text" class="inputBox"></td>
+                </tr>
+       
+        </table>
+    </div>
+
+    <div class="section7Text container">
+        <p class="custom-text2 testimonial">Testimonial</p>
+    </div>
+    <div class="container section4 flex">
+        <textarea class="textAreaBox" name="" id="" cols="150" rows="10"></textarea>
+    </div>
+
+    <div class="section7Text container">
+        <p class="custom-text2 testimonial">Kindly refer Five friends to New Horizons</p>
+    </div>
+    <div class="container section7 flex">
+        <table >
+                    
+            <tr>
+            <td class="tdA text-center">Name <input type="text" class="inputBox" readonly></td>
+            <td class="tdB text-center">Phone Number <input type="text" class="inputBox" readonly></td>
+            <td class="tdB text-center">Email <input type="text" class="inputBox" readonly></td>
+            </tr>
+            
+
+            <tr>
+                <td class="tdA"><input type="text" class="inputBox"></td>
+                <td class="tdB"><input type="text" class="inputBox"></td>
+                <td class="tdA"><input type="text" class="inputBox"></td>
+            </tr>
+
+                <tr>
+                    <td class="tdA"><input type="text" class="inputBox"></td>
+                    <td class="tdB"><input type="text" class="inputBox"></td>
+                    <td class="tdA"><input type="text" class="inputBox"></td>
+                </tr>
+           
+                <tr>
+                    <td class="tdA"><input type="text" class="inputBox"></td>
+                    <td class="tdB"><input type="text" class="inputBox"></td>
+                    <td class="tdA"><input type="text" class="inputBox"></td>
+                </tr>   
+
+                <tr>
+                    <td class="tdA"><input type="text" class="inputBox"></td>
+                    <td class="tdB"><input type="text" class="inputBox"></td>
+                    <td class="tdA"><input type="text" class="inputBox"></td>
+                </tr>
+
+                <tr>
+                    <td class="tdA"><input type="text" class="inputBox"></td>
+                    <td class="tdB"><input type="text" class="inputBox"></td>
+                    <td class="tdA"><input type="text" class="inputBox"></td>
+                </tr>
+
+            </table>
+
+        
+    </div>
+
+<div class="container finalText">
+
+    <p>Thank you for your cooperation</p>
+    <p>Oluwatobi Jegede</p>
+    <p>Center Manager</p>
+
+
+</div>
+
 
 
     </section>
 
+    
 
 
 
 
-<script>
-document.querySelector('.userName').innerHTML  = localStorage.getItem('textvalue')  
-</script>
+
+
 
 
     
-    
+    <script src="table.js"></script>
 </body>
 </html>

@@ -1,0 +1,231 @@
+html{
+    scroll-behavior: smooth;;
+  }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg1{
+    background-color: #F4F6F6;
+    height: auto;
+    
+}
+.welcome{
+    color: #17202A;
+    margin-top: 50px;
+}
+.userName{
+    margin-top: 50px;
+}
+.evaluationContainer{
+    display: flex;
+    justify-content: right;
+}
+.evaluationContainer h3{
+    font-size: 20px;
+    border-bottom: 30px;
+    
+}
+
+.tabelContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+   
+}
+
+table{
+    margin-top: 30px;
+    border: 1px #909497 solid ;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 50, 0.3);
+    height: auto;
+    width: 100%;
+    border-collapse: collapse  
+}
+
+td, tr{
+    border: 1px #909497 solid ;
+    padding: 1px;  
+    height: 50px;
+    padding-left: 20px;
+    font-family: sans-serif;  
+}
+.inputBox{
+    width: 50%;
+    background-color: #F4F6F6;
+    border: none;
+    outline: none;
+    height: 70%;
+    margin-left: 10px;
+    text-indent: 10px;
+}
+
+.ratingContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.section1 input{
+    width: 10%;
+}
+ .label[for=text]{
+    font-family: sans-serif;
+    margin-top: 200px;
+
+}
+
+
+.titleTxtContainer{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.titleTxtContainer p{
+    font-size: 18px;
+}
+
+.textAreaBox{
+    margin-top: 20px;
+    background-color: #F4F6F6;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 50, 0.3);
+    outline: none;
+    margin-bottom: 50px;
+}
+
+.section6{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.tabelContainer2 p{
+    color:#FF7469;
+    font-size: 18px;
+    
+}
+.nameCont{
+    display: flex;
+}
+.subNameContainer{
+    width: 100%;
+    margin-bottom: 10px;
+   
+}
+.subNameContainer .inputBox{
+    width: 100%;
+    background-color: #F4F6F6;
+    border: 1px solid black;
+    outline: none;
+    height: 70%;
+    margin-left: 10px;
+    text-indent: 10px;
+    
+}
+
+.tabelContainer2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: column;
+   
+}
+.tabelContainer2 p{
+    font-size: 18px;
+}
+
+.tdCustom{
+    width: 100%;
+}
+.textAreaBox2{
+    margin-top: 20px;
+    background-color: #F4F6F6;
+    outline: none;
+    margin-bottom: 50px;
+    border: none;  
+}
+
+.testimonial{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.section7Text{
+    display: flex;
+}
+
+.finalText{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.finalText p{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* Tablet and under */
+@media(max-width: 768px){
+
+
+}
+
+/* Tablet and under */
+@media(max-width: 500px){
+    td{
+        font-size: 13px;
+    }
+    .inputBox{
+        width: 30%;
+        background-color: #F4F6F6;
+        border: none;
+        outline: none;
+        height: 70%;
+        margin-left: 10px;
+        text-indent: 1px;
+    }
+    
+}
+
+/* Tablet and under */
+@media(max-width: 400px) and (min-width: 320px){
+    td{
+        font-size: 10px;
+    }
+    .inputBox{
+        width: 30%;
+        background-color: #F4F6F6;
+        border: none;
+        outline: none;
+        height: 20%;
+        margin-left: 5px;
+        text-indent: 1px;
+    }
+    .ratingContainer p{
+        font-size: 12px;
+        
+    }
+    .evaluationContainer .custom-text2{
+        font-size: 14px;
+    }
+    .welcome{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .userName{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .tabelContainer2 p{
+        font-size: 16px;
+    }
+    .section7Text p{
+        font-size: 14px;
+    }
+}

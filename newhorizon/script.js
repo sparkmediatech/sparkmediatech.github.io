@@ -7,6 +7,10 @@ var sect1inputbox = document.querySelector('.sect1-input-box').value;
 var sect2inputbox = document.getElementById('sect1-email-box').value;
 var submitBTN = document.querySelector('.submitBTN');
 var userName = document.querySelector('.userName');
+var numbers = /^[0-9]+$/
+
+
+var submitEmailBTN = document.querySelector('.submitEmailBTN')
 
 
 
@@ -30,7 +34,20 @@ else{
 
 })
 
+submitEmailBTN.addEventListener('click', () =>{
+    var sect7inputbox = document.querySelector('.sect7-input-box').value;
+    var sect7emailbox = document.getElementById('sect7-email-box').value;
 
+    if(sect7inputbox.trim() == "" || sect7emailbox.trim() == "" || sect7inputbox.match(numbers)  ){
+        alert('Please enter a valid name')
+        document.querySelector('.form').reset();
+
+    }
+    else{
+        localStorage.setItem('textvalue', sect7inputbox);
+        location.href = 'table.html'
+    }
+})
 
 
 

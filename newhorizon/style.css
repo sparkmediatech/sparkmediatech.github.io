@@ -66,6 +66,7 @@ img{
     grid-column-gap:200px;
     
 }
+
 .homeTitle-Text{
     margin-top: 100px;
 }
@@ -395,8 +396,6 @@ color: #A0A0A0;
 
 
 /* Section 7 */
-
-
 .sect7{
     background:linear-gradient(rgba(0,0,0,0.3), #17202A  ),url(image/img7.jpg);
     background-size: cover;
@@ -432,6 +431,7 @@ color: #A0A0A0;
     border-radius: 5px;
     text-indent: 10px;
     margin-top: 20px;
+    outline: none;
 }
 .sect7-form{
     margin-right: 70px;

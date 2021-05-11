@@ -37,11 +37,13 @@
     </div>
     <div class="home-box-container ">
         <p class="mid-text">Begin Your Course Evaluation Here</p>
-        <form action="#" class="form" name="formName">
+            <form action="" onsubmit="return false">
             <input class="sect1-input-box"  type="text" placeholder="Full Name" autocomplete="off"><br>
             <input class="sect1-input-box" id="sect1-email-box"  type="text" placeholder="Email Address *" autocomplete="off"><br>
+            <!--<button onclick="clickme()" class="submitBTN btn"><a href="#">BEGIN EVALUATION</a></button>-->
             <input  class="btn submitBTN" type="submit" value="BEGIN EVALUATION">
         </form>
+        
         <p class="mid-text" id="sect1-lower-text">Your privacy is guaranteed *</p>
     </div>
 
@@ -318,10 +320,10 @@
         </div>
 
         <div>
-            <form action="#" class="sect7-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="text" placeholder="Email Address" required>
-                <input type="submit" value="Evaluate" class="btn">
+            <form action="#" class="sect7-form" onsubmit="return false">
+                <input class="sect7-input-box" type="text" placeholder="Your Name" autocomplete="off">
+                <input  class="sect7-input-box" id="sect7-email-box" type="text" placeholder="Email Address" autocomplete="off">
+                <input  type="submit" value="Evaluate" class="btn submitEmailBTN">
 
             </form>
         </div>
