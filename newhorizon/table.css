@@ -16,6 +16,16 @@ html{
     color: #17202A;
     margin-top: 50px;
 }
+.userEmailContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.userEmail{
+    font-size: 25px;
+    color: #212F3D;
+    margin-bottom: 10px;
+}
 .userName{
     margin-top: 50px;
 }
@@ -214,11 +224,11 @@ td, tr{
         font-size: 14px;
     }
     .welcome{
-        font-size: 25px;
+        font-size: 20px;
         margin-bottom: 10px;
     }
     .userName{
-        font-size: 25px;
+        font-size: 20px;
         margin-bottom: 10px;
     }
 
@@ -227,5 +237,9 @@ td, tr{
     }
     .section7Text p{
         font-size: 14px;
+    }
+    .userEmail{
+        font-size: 15px;
+        margin-bottom: 20px;
     }
 }

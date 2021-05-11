@@ -8,6 +8,7 @@ var sect2inputbox = document.getElementById('sect1-email-box').value;
 var submitBTN = document.querySelector('.submitBTN');
 var userName = document.querySelector('.userName');
 var numbers = /^[0-9]+$/
+var mail = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;;
 
 
 var submitEmailBTN = document.querySelector('.submitEmailBTN')
@@ -20,13 +21,18 @@ submitBTN.addEventListener('click', () =>{
     
     
 
-  if(sect1inputbox.trim() == "" || sect1emailBox.trim() == ""){
+  if(sect1inputbox.trim() == "" || sect1emailBox.trim() == "" || sect1inputbox.match(numbers)){
       alert('Please enter a valid name')
       document.querySelector('.form').reset();
   }
+  else if(!(sect1emailBox.match(mail))){
+    alert('Enter a valid Email')
+
+}
   
 else{
    localStorage.setItem('textvalue', sect1inputbox);
+   localStorage.setItem('emailvalue', sect1emailBox);
    location.href = 'table.html'
    
    
@@ -41,10 +47,14 @@ submitEmailBTN.addEventListener('click', () =>{
     if(sect7inputbox.trim() == "" || sect7emailbox.trim() == "" || sect7inputbox.match(numbers)  ){
         alert('Please enter a valid name')
         document.querySelector('.form').reset();
+    }
+    else if(!(sect7emailbox.match(mail))){
+        alert('Enter a valid Email')
 
     }
     else{
         localStorage.setItem('textvalue', sect7inputbox);
+        localStorage.setItem('emailvalue', sect7emailbox);
         location.href = 'table.html'
     }
 })
