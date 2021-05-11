@@ -27,7 +27,8 @@
     border-radius: 5px;
     cursor: pointer;
     font-family: sans-serif;
-    font-size: 20px;   
+    font-size: 20px; 
+    outline: none;  
 }
 .social-icon{
     font-size: 20px;
