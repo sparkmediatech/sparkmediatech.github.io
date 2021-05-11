@@ -531,7 +531,7 @@ color: #A0A0A0;
 
 
 /* Mobile*/
-@media(max-width: 320px){
+@media(max-width: 400px) and (min-width: 320px){
 
     .navbar{
         height: 100px;
