@@ -8,10 +8,16 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="table.css">
+    
 </head>
 <body>
-    <section class="bg">
-        
+    <section class="bg1">
+        <div class="bg1-container flex conatiner">
+            <h2>Welcome - </h2> <h2 class="userName"></h2>
+            
+
+        </div>
 
 
     </section>
@@ -20,8 +26,12 @@
 
 
 
+<script>
+document.querySelector('.userName').innerHTML  = localStorage.getItem('textvalue')  
+</script>
 
-    <script src="script.js"></script>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+    
+    
 </body>
 </html>

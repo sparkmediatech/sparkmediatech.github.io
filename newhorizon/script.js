@@ -1,3 +1,49 @@
+//user verification
+
+
+
+
+var sect1inputbox = document.querySelector('.sect1-input-box').value;
+var sect2inputbox = document.getElementById('sect1-email-box').value;
+var submitBTN = document.querySelector('.submitBTN');
+var userName = document.querySelector('.userName');
+
+
+
+submitBTN.addEventListener('click', () =>{
+    var sect1inputbox = document.querySelector('.sect1-input-box').value;
+    var sect1emailBox = document.getElementById('sect1-email-box').value;
+    
+    
+
+  if(sect1inputbox.trim() == "" || sect1emailBox.trim() == ""){
+      alert('Please enter a valid name')
+      document.querySelector('.form').reset();
+  }
+  
+else{
+   localStorage.setItem('textvalue', sect1inputbox);
+   location.href = 'table.html'
+   
+   
+}
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //codes for counter
 
@@ -51,4 +97,6 @@ window.addEventListener('scroll', () =>{
         
     }
   });
+  
+
   
