@@ -28,7 +28,8 @@
         <table >
                     
             <tr>
-            <td class="tdA">Course Name: <input type="text" class="inputBox"></td>
+            <div class="tabContainer1">
+            <td class="tdA">Course Name: <input type="text" class="inputBox"></td></div>
             <td class="tdB">Trainer: <input type="text" class="inputBox"></td>
             </tr>
             
@@ -58,32 +59,33 @@
     </div>
 <div class=" container section2 flex">
     <table>
-        <tr>
-            <td class="tdA">Content of the training:</td>
-            <td class="tdB"><input type="text" class="inputBox"></td>
+        <tr class="contentTraining">
+            <td class="tdAA">Content of the training:</td>
+            <td class="tdBB"><input type="text" class="inputBox"readonly></td>
             
             </tr>
 
-            <tr class="section1">
-                <td class="tdA">Suitability of course material:</td>
-                <td class="tdB">
-                    <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+            <tr class="section1 tRsustain">
+                <td class="tdAA">Suitability of course material:</td>
+                <td class="tdBB">
+                    <div class="sustain">
+                    <label class="labelSustain" for="">1<input type="radio" class="inputNow" name="suitability"></label>
                     
-                   <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
-                   <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
-                   <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                    <label class="labelSustain" for="text"> 2<input type="radio" class="inputNow" name="suitability"></label> 
+                   <label class="labelSustain" for="text"> 3 <input type="radio" class="inputNow" name="suitability"></label>
+                   <label class="labelSustain" for="">4<input type="radio" class="inputNow" name="suitability"></div></label>
                 </td>
                 
                 
                 </tr>
                 <tr class="section1">
-                    <td class="tdA">Quality of course material:</td>
-                    <td class="tdB">
-                        <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                    <td class="tdAA">Quality of course material:</td>
+                    <td class="tdBB">
+                        <label class="label" for="text">1<input type="radio" class="inputRadio" name="quality"></label>
                         
-                       <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
-                       <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
-                       <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                       <label for="text"> 2 <input type="radio" class="inputRadio" name="quality"></label>
+                       <label for="text"> 3 <input type="radio" class="inputRadio" name="quality"></label>
+                       <label for="">4<input type="radio" class="inputRadio" name="quality"></label>
                     </td>
                     
                     
@@ -92,48 +94,48 @@
 
 
                     <tr class="section1">
-                        <td class="tdA">Skill Upgrade:</td>
-                        <td class="tdB">
-                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                        <td class="tdAA">Skill Upgrade:</td>
+                        <td class="tdBB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="skill"></label>
                             
-                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="skill"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="skill"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="skill">
                         </td>      
                     </tr>
     
     
                     <tr class="section1">
-                        <td class="tdA">I learnt enough to be able to support my job or my career:</td>
-                        <td class="tdB">
-                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                        <td class="tdAA">I learnt enough to be able to support my job or my career:</td>
+                        <td class="tdBB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="job"></label>
                             
-                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="job"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="job"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="job">
                         </td>      
                     </tr>
     
                     <tr class="section1">
-                        <td class="tdA">My skill level before the training:</td>
-                        <td class="tdB">
-                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                        <td class="tdAA">My skill level before the training:</td>
+                        <td class="tdBB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="training"></label>
                             
-                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="training"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="training"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="training">
                         </td>      
                     </tr>
     
 
                     <tr class="section1">
-                        <td class="tdA">My skill level after the training:</td>
-                        <td class="tdB">
-                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                        <td class="tdAA">My skill level after the training:</td>
+                        <td class="tdBB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="after"></label>
                             
-                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="after"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="after"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="after">
                         </td>      
                     </tr>
 
@@ -143,35 +145,35 @@
 
 
 <div class="section2 container flex">
-    <table>
+    <table class="section2Table">
 
         
         <tr>
-            <td class="tdA">The session/work organisation:</td>
-            <td class="tdB"><input type="text" class="inputBox"></td>
+            <td class="tdAA">The session/work organisation:</td>
+            <td class="tdBB"><input type="text" class="inputBox" readonly></td>
             
             </tr>
 
             <tr class="section1">
-                <td class="tdA">The training delivery was well presented:</td>
-                <td class="tdB">
-                    <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                <td class="tdAA">The training delivery was well presented:</td>
+                <td class="tdBB">
+                    <label class="label" for="text">1<input type="radio" class="inputRadio" name="organisation"></label>
                     
-                   <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
-                   <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
-                   <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                   <label for="text"> 2 <input type="radio" class="inputRadio" name="organisation"></label>
+                   <label for="text"> 3 <input type="radio" class="inputRadio" name="organisation"></label>
+                   <label for=""></label>4<input type="radio" class="inputRadio" name="organisation">
                 </td>
                 
                 
                 </tr>
                 <tr class="section1">
-                    <td class="tdA">I enjoyed the activities and exercises:</td>
-                    <td class="tdB">
-                        <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                    <td class="tdAA">I enjoyed the activities and exercises:</td>
+                    <td class="tdBB">
+                        <label class="label" for="text">1<input type="radio" class="inputRadio" name="activities"></label>
                         
-                       <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
-                       <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
-                       <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                       <label for="text"> 2 <input type="radio" class="inputRadio" name="activities"></label>
+                       <label for="text"> 3 <input type="radio" class="inputRadio" name="activities"></label>
+                       <label for=""></label>4<input type="radio" class="inputRadio" name="activities">
                     </td>
                     
                     
@@ -180,48 +182,48 @@
 
 
                     <tr class="section1">
-                        <td class="tdA">The course was interactive:</td>
-                        <td class="tdB">
-                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                        <td class="tdAA">The course was interactive:</td>
+                        <td class="tdBB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="interactive"></label>
                             
-                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="interactive"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="interactive"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="interactive">
                         </td>      
                     </tr>
     
     
                     <tr class="section1">
-                        <td class="tdA">The practical was extensive:</td>
-                        <td class="tdB">
-                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                        <td class="tdAA">The practical was extensive:</td>
+                        <td class="tdBB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="practical"></label>
                             
-                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="practical"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="practical"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="practical">
                         </td>      
                     </tr>
     
                     <tr class="section1">
-                        <td class="tdA">The facilities are comfortable (e.g room, temperature, seating etc:</td>
-                        <td class="tdB">
-                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                        <td class="tdAA">The facilities are comfortable (e.g room, temperature, seating etc:</td>
+                        <td class="tdBB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="facilities"></label>
                             
-                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="facilities"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="facilities"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="facilities">
                         </td>      
                     </tr>
     
 
                     <tr class="section1">
-                        <td class="tdA">The general logistics of the training was satisfactory:</td>
-                        <td class="tdB">
-                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                        <td class="tdAA">The general logistics of the training was satisfactory:</td>
+                        <td class="tdBB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="general"></label>
                             
-                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="general"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="general"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="general">
                         </td>      
                     </tr>
     </table>
@@ -233,35 +235,35 @@
 
 
 <div class="section3 container flex">
-    <table>
+    <table class="section3Table">
 
         
         <tr>
-            <td class="tdA">The Trainer:</td>
-            <td class="tdB"><input type="text" class="inputBox"></td>
+            <td class="tdAA">The Trainer:</td>
+            <td class="tdBB"><input type="text" class="inputBox" readonly></td>
             
             </tr>
 
             <tr class="section1">
-                <td class="tdA">Trainer explained the content clearly:</td>
-                <td class="tdB">
-                    <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                <td class="tdAA">Trainer explained the content clearly:</td>
+                <td class="tdBB">
+                    <label class="label" for="text">1<input type="radio" class="inputRadio" name="explained"></label>
                     
-                   <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
-                   <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
-                   <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                   <label for="text"> 2 <input type="radio" class="inputRadio" name="explained"></label>
+                   <label for="text"> 3 <input type="radio" class="inputRadio" name="explained"></label>
+                   <label for=""></label>4<input type="radio" class="inputRadio" name="explained">
                 </td>
                 
                 
                 </tr>
                 <tr class="section1">
-                    <td class="tdA">Trainer presented material in an organised and easy-to-follow style:</td>
-                    <td class="tdB">
-                        <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                    <td class="tdAA">Trainer presented material in an organised and easy-to-follow style:</td>
+                    <td class="tdBB">
+                        <label class="label" for="text">1<input type="radio" class="inputRadio" name="material"></label>
                         
-                       <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
-                       <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
-                       <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                       <label for="text"> 2 <input type="radio" class="inputRadio" name="material"></label>
+                       <label for="text"> 3 <input type="radio" class="inputRadio" name="material"></label>
+                       <label for=""></label>4<input type="radio" class="inputRadio" name="material">
                     </td>
                     
                     
@@ -270,71 +272,71 @@
 
 
                     <tr class="section1">
-                        <td class="tdA">Trainer encouraged the group to get involved in discussion/activities:</td>
-                        <td class="tdB">
-                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                        <td class="tdAA">Trainer encouraged the group to get involved in discussion/activities:</td>
+                        <td class="tdBB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="discussion"></label>
                             
-                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="discussion"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="discussion"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="discussion">
                         </td>      
                     </tr>
     
     
                     <tr class="section1">
-                        <td class="tdA">Trainer managed the group discussion effectively:</td>
-                        <td class="tdB">
-                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                        <td class="tdAA">Trainer managed the group discussion effectively:</td>
+                        <td class="tdBB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="managed"></label>
                             
-                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="managed"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="managed"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="managed">
                         </td>      
                     </tr>
     
                     <tr class="section1">
-                        <td class="tdA">Trainer utilised a variety of training techniques:</td>
-                        <td class="tdB">
-                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                        <td class="tdAA">Trainer utilised a variety of training techniques:</td>
+                        <td class="tdBB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="variety"></label>
                             
-                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="variety"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="ovariety"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="variety">
                         </td>      
                     </tr>
     
 
                     <tr class="section1">
-                        <td class="tdA">Overall competence of the trainer:</td>
-                        <td class="tdB">
-                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                        <td class="tdAA">Overall competence of the trainer:</td>
+                        <td class="tdBB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="competence"></label>
                             
-                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="competence"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="competence"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="competence">
                         </td>      
                     </tr>
 
 
                     <tr class="section1">
-                        <td class="tdA">Punctuality:</td>
-                        <td class="tdB">
-                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                        <td class="tdAA">Punctuality:</td>
+                        <td class="tdBB">
+                           <!-- <label class="label" for="text">1<input type="radio" class="inputRadio" name="punctuality"></label>
                             
-                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="punctuality"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="punctuality"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="punctuality">-->
                         </td>      
                     </tr>
 
                     <tr class="section1">
-                        <td class="tdA">Is the trainer punctual to class?:</td>
-                        <td class="tdB">
-                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+                        <td class="tdAA">Is the trainer punctual to class?:</td>
+                        <td class="tdBB">
+                            <label class="label" for="text">1<input type="radio" class="inputRadio" name="punctual"></label>
                             
-                           <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
-                           <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+                           <label for="text"> 2 <input type="radio" class="inputRadio" name="punctual"></label>
+                           <label for="text"> 3 <input type="radio" class="inputRadio" name="punctual"></label>
+                           <label for=""></label>4<input type="radio" class="inputRadio" name="punctual">
                         </td>      
                     </tr>
     </table>
@@ -344,25 +346,25 @@
 
 <div class="container section3 flex">
 
-<table>
+<table class="section4Table">
     
         <tr>
-            <td class="tdA">Others: <input type="text" class="inputBox" readonly></td>
-            <td class="tdB">
-                <input type="text" class="inputBox" name="option"></label>
+            <td class="tdAA">Others: <input type="text" class="inputBox" readonly></td>
+            <td class="tdBB">
+                <input type="text" class="inputBox" name="option" readonly></label>
                 
             </td>
         </tr>
     
 
-        <tr class="section1">
-            <td class="tdA">Overall satisfaction:</td>
-            <td class="tdB">
-                <label class="label" for="text">1<input type="radio" class="inputRadio" name="option"></label>
+        <tr class="section1 section3TR ">
+            <td class="tdAA">Overall satisfaction:</td>
+            <td class="tdBB">
+                <label class="label" for="text">1<input type="radio" class="inputRadio" name="satisfaction"></label>
                 
-               <label for="text"> 2 <input type="radio" class="inputRadio" name="option"></label>
-               <label for="text"> 3 <input type="radio" class="inputRadio" name="option"></label>
-               <label for=""></label>4<input type="radio" class="inputRadio" name="option">
+               <label class="section3TRLabel" for="text"> 2 <input type="radio" class="inputRadio" name="satisfaction"></label>
+               <label for="text"> 3 <input type="radio" class="inputRadio" name="satisfaction"></label>
+               <label for="text">4<input type="radio" class="inputRadio" name="satisfaction"></label>
             </td>      
         </tr>
 
@@ -370,28 +372,28 @@
 </div>
 
 <div class="container section4 flex">
-    <textarea class="textAreaBox" name="" id="" cols="150" rows="10"></textarea>
+    <textarea class="textAreaBox" name="" id="" cols="150" rows="7" maxlength="600"></textarea>
 </div>
 
 <div class="container tabelContainer2">
         
     <p class="mid-text">Please kindly give a detailed but concise testimonial on your experience with us at New Horizons, Nigeria during the training</p>
-    <table >
+    <table class="tableContTable" >
                 
         <tr>
-        <td class="tdA">Name: <input type="text" class="inputBox" readonly></td>
-        <td class="tdB"> <input type="text" class="inputBox"></td>
+        <td class="tdAA">Name:</td>
+        <td class="tdBB"> <input type="text" class="inputBox"></td>
         </tr>
         
 
         <tr>
-            <td class="tdA">Email:<input type="text" class="inputBox" readonly></td>
-            <td class="tdB"><input type="text" class="inputBox"></td>
+            <td class="tdAA">Email:</td>
+            <td class="tdBB"><input type="text" class="inputBox"></td>
             </tr>
 
             <tr>
-                <td class="tdA">TelePhone:<input type="text" class="inputBox" readonly></td>
-                <td class="tdB"><input type="text" class="inputBox"></td>
+                <td class="tdAA">TelePhone:</td>
+                <td class="tdBB"><input type="text" class="inputBox"></td>
                 </tr>
        
         </table>
@@ -401,7 +403,7 @@
         <p class="custom-text2 testimonial">Testimonial</p>
     </div>
     <div class="container section4 flex">
-        <textarea class="textAreaBox" name="" id="" cols="150" rows="10"></textarea>
+        <textarea class="textAreaBox" name="" id="" cols="150" rows="7" maxlength="600"></textarea>
     </div>
 
     <div class="section7Text container">
@@ -411,40 +413,40 @@
         <table >
                     
             <tr>
-            <td class="tdA text-center">Name <input type="text" class="inputBox" readonly></td>
-            <td class="tdB text-center">Phone Number <input type="text" class="inputBox" readonly></td>
-            <td class="tdB text-center">Email <input type="text" class="inputBox" readonly></td>
+            <td class="tdAA text-center">Name </td>
+            <td class="tdBB text-center">Phone Number </td>
+            <td class="tdBB text-center">Email </td>
             </tr>
             
 
             <tr>
-                <td class="tdA"><input type="text" class="inputBox"></td>
-                <td class="tdB"><input type="text" class="inputBox"></td>
-                <td class="tdA"><input type="text" class="inputBox"></td>
+                <td class="tdAA"><input type="text" class="inputBox"></td>
+                <td class="tdBB"><input type="text" class="inputBox"></td>
+                <td class="tdAA"><input type="text" class="inputBox"></td>
             </tr>
 
                 <tr>
-                    <td class="tdA"><input type="text" class="inputBox"></td>
-                    <td class="tdB"><input type="text" class="inputBox"></td>
-                    <td class="tdA"><input type="text" class="inputBox"></td>
+                    <td class="tdAA"><input type="text" class="inputBox"></td>
+                    <td class="tdBB"><input type="text" class="inputBox"></td>
+                    <td class="tdAA"><input type="text" class="inputBox"></td>
                 </tr>
            
                 <tr>
-                    <td class="tdA"><input type="text" class="inputBox"></td>
-                    <td class="tdB"><input type="text" class="inputBox"></td>
-                    <td class="tdA"><input type="text" class="inputBox"></td>
+                    <td class="tdAA"><input type="text" class="inputBox"></td>
+                    <td class="tdBB"><input type="text" class="inputBox"></td>
+                    <td class="tdAA"><input type="text" class="inputBox"></td>
                 </tr>   
 
                 <tr>
-                    <td class="tdA"><input type="text" class="inputBox"></td>
-                    <td class="tdB"><input type="text" class="inputBox"></td>
-                    <td class="tdA"><input type="text" class="inputBox"></td>
+                    <td class="tdAA"><input type="text" class="inputBox"></td>
+                    <td class="tdBB"><input type="text" class="inputBox"></td>
+                    <td class="tdAA"><input type="text" class="inputBox"></td>
                 </tr>
 
                 <tr>
-                    <td class="tdA"><input type="text" class="inputBox"></td>
-                    <td class="tdB"><input type="text" class="inputBox"></td>
-                    <td class="tdA"><input type="text" class="inputBox"></td>
+                    <td class="tdAA"><input type="text" class="inputBox"></td>
+                    <td class="tdBB"><input type="text" class="inputBox"></td>
+                    <td class="tdAA"><input type="text" class="inputBox"></td>
                 </tr>
 
             </table>

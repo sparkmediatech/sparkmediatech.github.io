@@ -63,13 +63,17 @@ td, tr{
     font-family: sans-serif;  
 }
 .inputBox{
-    width: 50%;
+    width: 60%;
     background-color: #F4F6F6;
     border: none;
     outline: none;
     height: 70%;
     margin-left: 10px;
     text-indent: 10px;
+}
+.section7 .inputBox{
+    width: 90%;
+    font-size: 11px;  
 }
 
 .ratingContainer{
@@ -83,12 +87,14 @@ td, tr{
 .section1 input{
     width: 10%;
 }
- .label[for=text]{
+ /*.label[for=text]{
     font-family: sans-serif;
     margin-top: 200px;
 
+}*/
+.tableContTable input{
+    width: 90%;    
 }
-
 
 .titleTxtContainer{
     display: flex;
@@ -105,6 +111,7 @@ td, tr{
     box-shadow: 0 2px 8px 0 rgba(0, 0, 50, 0.3);
     outline: none;
     margin-bottom: 50px;
+    width: 100%;
 }
 
 .section6{
@@ -181,17 +188,53 @@ td, tr{
 
 /* Tablet and under */
 @media(max-width: 768px){
-
+    .section7 .inputBox{
+        width: 90%;
+        font-size: 11px;  
+    }
+    .tableContTable input{
+        width: 90%;
+        font-size: 11px; 
+        
+    }
+    
+    .inputBox{
+        width: 50%;
+    }
+    .tdA{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .tdB{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    @-moz-document url-prefix(){
+        .textAreaBox{
+            width: 100%;
+        }
+        .evaluationContainer{
+            justify-content: left;
+        }
+        
+    }
 
 }
 
+
+
+
+
 /* Tablet and under */
 @media(max-width: 500px){
+
     td{
         font-size: 13px;
     }
     .inputBox{
-        width: 30%;
+        width: 90%;
         background-color: #F4F6F6;
         border: none;
         outline: none;
@@ -199,23 +242,56 @@ td, tr{
         margin-left: 10px;
         text-indent: 1px;
     }
+    @-moz-document url-prefix(){
+        .textAreaBox{
+            width: 100%;
+        }
+        .section3Table input{
+            font-size: 18px;
+        }
+        .evaluationContainer{
+            justify-content: left;
+        }
+        
+    }
     
 }
 
 /* Tablet and under */
 @media(max-width: 400px) and (min-width: 320px){
-    td{
-        font-size: 10px;
+    .tdA{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    .inputBox{
-        width: 30%;
-        background-color: #F4F6F6;
-        border: none;
-        outline: none;
-        height: 20%;
-        margin-left: 5px;
+    .tdB{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+   .tabelContainer .inputBox{
+        width: 80%;
         text-indent: 1px;
+        font-size: 9px;
     }
+    .tabelContainer2 .inputBox{
+        width: 85%;
+        text-indent: 1px;
+        font-size: 9px;
+    }
+    .section7 .inputBox{
+        width: 85%;
+        text-indent: 1px;
+        font-size: 9px;
+    }
+   
+    
+    .section1 .inputNow input{
+        font-size: 35px;
+        
+    }
+    
     .ratingContainer p{
         font-size: 12px;
         
@@ -242,4 +318,37 @@ td, tr{
         font-size: 15px;
         margin-bottom: 20px;
     }
+
+    
+    td, tr{
+        border: 1px #909497 solid ;
+        padding-left: 10px;
+        font-size: 10px;    
+    }
+
+    input{
+        font-size: 23px;  
+    }
+    @-moz-document url-prefix() { 
+        .section2Table input{
+            font-size: 35px;   
+        }
+        .section3Table input{
+            font-size: 75px;
+        }
+        
+        .section4Table .inputBox{
+            font-size: 10px;
+            display: none;
+        }
+        
+        .textAreaBox{
+            width: 100%;
+        }
+
+      }
+      
+    
+      
+    
 }

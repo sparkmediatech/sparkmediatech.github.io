@@ -1,8 +1,5 @@
 //user verification
 
-
-
-
 var sect1inputbox = document.querySelector('.sect1-input-box').value;
 var sect2inputbox = document.getElementById('sect1-email-box').value;
 var submitBTN = document.querySelector('.submitBTN');
@@ -58,16 +55,6 @@ submitEmailBTN.addEventListener('click', () =>{
         location.href = 'table.html'
     }
 })
-
-
-
-
-
-
-
-
-
-
 
 
 
