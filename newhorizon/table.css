@@ -181,6 +181,10 @@ td, tr{
 .finalText p{
     margin-bottom: 20px;
 }
+.section7 .btn{
+    margin-top: 10px;
+    width: 20%;
+}
 
 
 
@@ -253,6 +257,10 @@ td, tr{
             justify-content: left;
         }
         
+    }
+    .section7 .btn{
+        margin-top: 10px;
+        width: 40%;
     }
     
 }
@@ -348,7 +356,10 @@ td, tr{
 
       }
       
-    
+      .section7 .btn{
+        margin-top: 10px;
+        width: 50%;
+    }
       
     
 }
