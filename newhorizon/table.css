@@ -92,6 +92,7 @@ td, tr{
     margin-top: 200px;
 
 }*/
+
 .tableContTable input{
     width: 90%;    
 }
@@ -185,6 +186,9 @@ td, tr{
     margin-top: 10px;
     width: 20%;
 }
+.buttonLabel{
+    display: inline-flex;
+}
 
 
 
@@ -262,6 +266,20 @@ td, tr{
         margin-top: 10px;
         width: 40%;
     }
+/* Button display properties. This hides the labels on mobile and display the paragraph texts */
+.buttonPara{
+    display: block;
+    margin-left: 50px;
+    position: relative;
+    top: 13px;         
+}
+    .buttonLabel{
+    display: none;
+}
+input{
+    margin-left: 30px;
+}
+
     
 }
 
@@ -289,9 +307,9 @@ td, tr{
         font-size: 9px;
     }
     .section7 .inputBox{
-        width: 85%;
-        text-indent: 1px;
-        font-size: 9px;
+        width: 60%;
+        text-indent: 0px;
+        font-size: 8px;
     }
    
     
@@ -330,7 +348,7 @@ td, tr{
     
     td, tr{
         border: 1px #909497 solid ;
-        padding-left: 10px;
+        padding-left: 3px;
         font-size: 10px;    
     }
 
@@ -360,6 +378,138 @@ td, tr{
         margin-top: 10px;
         width: 50%;
     }
+    
+/* Display properties */
+        .buttonPara{
+        display: block;
+        margin-left: 50px;
+        position: relative;
+        top: 13px;         
+    }
+        .buttonLabel{
+        display: none;
+    }
+    input{
+        margin-left: 30px;
+    }
+    
+    
+}
+
+
+@media(max-width: 319px){
+    
+    .tdA{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tdB{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+   .tabelContainer .inputBox{
+        width: 80%;
+        text-indent: 1px;
+        font-size: 9px;
+    }
+    .tabelContainer2 .inputBox{
+        width: 85%;
+        text-indent: 1px;
+        font-size: 9px;
+    }
+    .section7 .inputBox{
+        width: 60%;
+        text-indent: 0px;
+        font-size: 8px;
+    }
+   
+    
+    .section1 .inputNow input{
+        font-size: 35px;
+        
+    }
+    
+    .ratingContainer p{
+        font-size: 12px;
+        
+    }
+    .evaluationContainer .custom-text2{
+        font-size: 14px;
+    }
+    .welcome{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .userName{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .tabelContainer2 p{
+        font-size: 16px;
+    }
+    .section7Text p{
+        font-size: 14px;
+    }
+    .userEmail{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    
+    td, tr{
+        border: 1px #909497 solid ;
+        padding-left: 3px;
+        font-size: 10px;    
+    }
+
+    input{
+        font-size: 23px;  
+    }
+    @-moz-document url-prefix() { 
+        .section2Table input{
+            font-size: 35px;   
+        }
+        .section3Table input{
+            font-size: 75px;
+        }
+        
+        .section4Table .inputBox{
+            font-size: 10px;
+            display: none;
+        }
+        
+        .textAreaBox{
+            width: 100%;
+        }
+
+      }
       
+      .section7 .btn{
+        margin-top: 10px;
+        width: 50%;
+    }
+    
+/* Display properties */
+        .buttonPara{
+        display: block;
+        margin-left: 50px;
+        position: relative;
+        top: 13px;         
+    }
+        .buttonLabel{
+        display: none;
+    }
+    input{
+        margin-left: 30px;
+    }
+    
+    
+
+
+
     
 }
