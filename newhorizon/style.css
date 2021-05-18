@@ -617,8 +617,14 @@ color: #A0A0A0;
 }
 .socialBox.socialBox{
     width: 100%;
+    height: 13%;
     font-size: 0px;
     padding:1px 1px 1px 1px;
+}
+.socialBox .social-icon{
+    margin-top: 7px;
+    margin-left: 5px;
+    
 }
 
 /*section 3*/
