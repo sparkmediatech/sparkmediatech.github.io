@@ -120,11 +120,12 @@
 }
 @media(max-width: 400px) and (min-width: 320px){
     .todo-wrapper{
-    width: 100%;
+    width: 80%;
     height: 50%;
+    margin-top: 10px;
 }
 .tititle-container h3{
-    font-size: 16px;
+    font-size: 13px;
 }
 
 }
