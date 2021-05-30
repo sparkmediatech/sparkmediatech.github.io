@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.bg{
+    background:linear-gradient(rgba(179, 213, 253, 0.5), #5DADE2);
+    height: 100vh;
+}
+
+.todo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+       
+}
+.todo-wrapper{
+    background-color:#FDFEFE;
+    width: 35%;
+    height: 50%;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.tititle-container{
+    background-color: #2874A6;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 3px;
+}
+.tititle-container h3{
+    font-family: lato;
+    color: #FDFEFE;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.inputBox{
+    width: 100%;
+    height: 30px;
+    border: none;
+    text-indent: 15px;
+    font-family: lato;
+    background-color: #ECF0F1;
+    outline: none;    
+}
+
+.todo-Array:nth-child(2n){
+    background-color: #ECF0F1;
+}
+.todo-Array{
+    width: 100%;
+    height: 35px;
+    border: none;
+    text-indent: 5px;
+    font-family: lato;
+    background-color:#D7DBDD;   
+}
+
+.material-icons{
+    font-size: 30px;
+}
+
+.close{
+   display: 1;
+   color: white;
+   cursor: pointer;
+}
+.open{
+    display: none;
+    color: white;
+    cursor: pointer;
+ }
+ 
+ .del{
+     font-size: 15px;
+     margin-left: 10px;
+     position: relative;
+     right: 8px;
+     top: 4px;
+     display: inline-block;
+     cursor: pointer;
+     background-color: #C0392B; 
+     text-align: center;
+     color: white;
+     font-size: 0px;
+     transition: 0.2s ease-in ;
+    
+ }
+ .todo-Array:hover .del{
+    font-size: 13px;
+    padding: 4px 6px 4px 1px;
+    display: inline-block;
+    
+ }
+
+
+ @media(max-width: 768px){
+    .todo-wrapper{
+    width: 50%;
+    height: 50%;
+}
+
+}
+
+
+@media(max-width: 500px){
+    .todo-wrapper{
+    width: 70%;
+    height: 50%;
+}
+}
+@media(max-width: 400px) and (min-width: 320px){
+    .todo-wrapper{
+    width: 100%;
+    height: 50%;
+}
+.tititle-container h3{
+    font-size: 16px;
+}
+
+}
+
+@media(max-width: 319px){
+    .todo-wrapper{
+        width: 100%;
+        height: 50%;
+    }
+
+    .tititle-container h3{
+        font-size: 15px;
+    }
+}
