@@ -127,7 +127,14 @@
 .tititle-container h3{
     font-size: 13px;
 }
-
+.close{
+    font-size: 20px;
+    margin-top: 3px;
+}
+.open{
+    font-size: 20px;
+    margin-top: 3px;
+}
 }
 
 @media(max-width: 319px){
