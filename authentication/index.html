@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sigin.css">
+    
+</head>
+<body>
+    <section id="bg">
+        <div id="header">
+       <header>
+           <img src="image/logo.png" id="logo" alt="">
+        
+        </div>   
+       </header>
+       </div>
+       
+       
+       <div id="alert-box">
+           <span><ion-icon name="checkmark-outline"></ion-icon></span>
+           <h2>Verification Successful !</h2>
+
+           <a class="ok-btn" href="numcaptcha.html">Ok</a>
+           
+      
+        </div>
+
+       <div id="alert-box2">
+        <span><ion-icon name="sad-outline"></ion-icon></span>
+        <h2>Verification Failed!!</h2>
+
+        <a class="ok-btn2" href="signin.html">Retry</a>
+    </div>
+       
+       <div id="form-container">
+            
+            <div id="form">
+            <h1 id="title">Sign In</h1>
+            User Name <br> 
+            <input type="text" class="txt-box" id="box1"><br>
+            Password <br> 
+            <input type="text" name="" id="box2"> <br>
+
+            <label>Captcha verification:</label>
+            <div class="form-box">
+                
+                <div class="form-btn">
+                    <input type="text" class="form-box1" id="captcha" readonly >
+                </div>
+                <div class="form-btn">
+                    <input type="text" class="form-box1" id="input-box">
+                </div>  
+            </div>
+            
+            <button onclick="pop()" id="btn"><p>Sign In</p></button><br> 
+            
+            <span><h6 id="reset">Reset Captcha  </h6>
+            <ion-icon onclick="refresh()" name="refresh-outline" id="reset-icon"></ion-icon></span> 
+    </div>
+    
+    </section>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="sign.js"></script>  
+</body>
+</html>
