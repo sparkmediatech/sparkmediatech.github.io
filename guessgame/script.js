@@ -56,6 +56,7 @@ function confirm(){
         
         congratulationsBox.style.display = 'flex';
         congratulationsBox.style.transform = "scale(1)"
+         document.querySelector('.tooLow').innerHTML =
         document.querySelector(".section1-text").style.pointerEvents = "none";
         document.querySelector(".section1-box").style.pointerEvents = "none";
         section1Box.style.opacity = '0.3';
